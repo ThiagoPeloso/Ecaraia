@@ -1,0 +1,2660 @@
+{
+	"name": "EventSheet_Jogo",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Points",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 162978463305530
+		},
+		{
+			"eventType": "variable",
+			"name": "Life",
+			"type": "number",
+			"initialValue": "3",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 929045248581055
+		},
+		{
+			"eventType": "variable",
+			"name": "Fase",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 851501218813573
+		},
+		{
+			"eventType": "variable",
+			"name": "playerX",
+			"type": "number",
+			"initialValue": "510",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 808254885504463
+		},
+		{
+			"eventType": "variable",
+			"name": "playerY",
+			"type": "number",
+			"initialValue": "1010",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 639390285311755
+		},
+		{
+			"eventType": "variable",
+			"name": "TextoVis",
+			"type": "boolean",
+			"initialValue": "true",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 992997822670369
+		},
+		{
+			"eventType": "variable",
+			"name": "MaxBooks",
+			"type": "number",
+			"initialValue": "6",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 895115703188093
+		},
+		{
+			"eventType": "variable",
+			"name": "Cheated",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 109938274291607
+		},
+		{
+			"eventType": "variable",
+			"name": "LastX",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 730592264447356
+		},
+		{
+			"eventType": "variable",
+			"name": "LastY",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 937049690123061
+		},
+		{
+			"eventType": "variable",
+			"name": "Walking",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 836990366309317
+		},
+		{
+			"eventType": "variable",
+			"name": "TimerTotal",
+			"type": "number",
+			"initialValue": "181",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 199502286607499
+		},
+		{
+			"eventType": "variable",
+			"name": "TimerStarted",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 538184530973555
+		},
+		{
+			"eventType": "variable",
+			"name": "TimerReset",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 178656786441189
+		},
+		{
+			"eventType": "variable",
+			"name": "Speed",
+			"type": "number",
+			"initialValue": "3.25",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 926537190237147
+		},
+		{
+			"eventType": "variable",
+			"name": "Fog",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 885742383441528
+		},
+		{
+			"eventType": "variable",
+			"name": "English",
+			"type": "boolean",
+			"initialValue": "true",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 429169636094206
+		},
+		{
+			"eventType": "variable",
+			"name": "Portugues",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 180896185854930
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Start",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 490674219072751
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "Fog",
+							"sid": 548080252382753,
+							"parameters": {
+								"opacity": "0"
+							}
+						}
+					],
+					"sid": 309639485243683
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 590064217945658
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 403502677593068,
+							"parameters": {
+								"variable": "Fase",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "request-pointer-lock",
+							"objectClass": "Mouse",
+							"sid": 803471043254085
+						},
+						{
+							"id": "play",
+							"objectClass": "DARK",
+							"sid": 307804118804437,
+							"parameters": {
+								"audio-file": "Main Theme",
+								"loop": "looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "find-path",
+							"objectClass": "Enemy",
+							"sid": 960101827755998,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"x": "Enemy.X+random(-500,500)",
+								"y": "Enemy.Y+random(-500,500)"
+							}
+						},
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "player_cam",
+							"sid": 895927094039871,
+							"parameters": {
+								"object": "PLAYER_3D",
+								"image-point-optional": "0"
+							}
+						},
+						{
+							"id": "add-child",
+							"objectClass": "PLAYER_3D",
+							"sid": 133283367135646,
+							"parameters": {
+								"child": "player_cam",
+								"transform-x": true,
+								"transform-y": true,
+								"transform-w": false,
+								"transform-h": false,
+								"transform-a": true,
+								"transform-z-elevation": false,
+								"destroy-with-parent": false
+							}
+						},
+						{
+							"id": "look-parallel-to-layout",
+							"objectClass": "3DCamera",
+							"sid": 810228431150711,
+							"parameters": {
+								"cam-x": "PLAYER_3D.X",
+								"cam-y": "PLAYER_3D.Y",
+								"cam-z": "6",
+								"look-angle": "PLAYER_3D.Angle"
+							}
+						},
+						{
+							"id": "set-fade-out-time",
+							"objectClass": "Tutorial",
+							"sid": 189258647235999,
+							"behaviorType": "Fade",
+							"parameters": {
+								"fade-out-time": "5"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "Score",
+							"sid": 659998006519158,
+							"parameters": {
+								"text": "Points&\"/\"&MaxBooks"
+							}
+						}
+					],
+					"sid": 820964123482474,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 433704301103011,
+									"parameters": {
+										"variable": "Portugues"
+									}
+								}
+							],
+							"actions": [
+								{
+									"callFunction": "Ajude",
+									"sid": 332622895214464
+								}
+							],
+							"sid": 235154450672352
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 805133424127286,
+									"parameters": {
+										"variable": "English"
+									}
+								}
+							],
+							"actions": [
+								{
+									"callFunction": "Help",
+									"sid": 901187735594384
+								}
+							],
+							"sid": 795670776766856
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 850154823283736,
+									"parameters": {
+										"variable": "Cheated"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "Book",
+									"sid": 225370888482330
+								}
+							],
+							"sid": 589120278193357
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 561289295348592,
+							"parameters": {
+								"variable": "TextoVis"
+							}
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "PLAYER_3D",
+							"sid": 646258777579807,
+							"parameters": {
+								"object": "Colisão_LivroMestre0"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [],
+					"sid": 527909736867147,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 538006901103629,
+									"parameters": {
+										"variable": "English"
+									}
+								},
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 315594316989924,
+									"parameters": {
+										"interval-seconds": "10"
+									}
+								}
+							],
+							"actions": [
+								{
+									"callFunction": "Help",
+									"sid": 256131766373829
+								},
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 569880536438565,
+									"parameters": {
+										"seconds": "5"
+									}
+								}
+							],
+							"sid": 701568952915736
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 577633896247408,
+									"parameters": {
+										"variable": "Portugues"
+									}
+								},
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 145650325126065,
+									"parameters": {
+										"interval-seconds": "10"
+									}
+								}
+							],
+							"actions": [
+								{
+									"callFunction": "Ajude",
+									"sid": 106315392576852
+								},
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 680990268390610,
+									"parameters": {
+										"seconds": "5"
+									}
+								}
+							],
+							"sid": 285853045813878
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 400226943359966,
+							"parameters": {
+								"variable": "Life",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"callFunction": "Death",
+							"sid": 790960323012085
+						}
+					],
+					"sid": 825127578440578
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 497951463782722,
+							"parameters": {
+								"key": 120
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-nextprevious-layout",
+							"objectClass": "System",
+							"sid": 854737504790837,
+							"parameters": {
+								"which": "next"
+							}
+						}
+					],
+					"sid": 521111504561670
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "PLAYER_3D",
+							"sid": 469695201297644,
+							"parameters": {
+								"object": "TimerTrigger"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 190276698824933,
+							"parameters": {
+								"variable": "Points",
+								"comparison": 5,
+								"value": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 644879497126275,
+							"parameters": {
+								"variable": "TimerStarted",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "TimerGame",
+							"sid": 766165256025783,
+							"parameters": {
+								"visibility": "visible"
+							}
+						}
+					],
+					"sid": 973311489058893
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 987446414828632
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 670191856371202,
+							"parameters": {
+								"variable": "TimerStarted",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 541189200230925
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 958301556559669,
+							"parameters": {
+								"variable": "TimerStarted"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 536709583165713,
+							"parameters": {
+								"variable": "TimerReset",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 915512153784651
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 821761994856273,
+							"parameters": {
+								"variable": "TimerReset"
+							}
+						},
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 488763248529256,
+							"parameters": {
+								"interval-seconds": "1.0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 828773287203094,
+							"parameters": {
+								"variable": "TimerTotal",
+								"value": "1"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TimerGame",
+							"sid": 499459439611185,
+							"parameters": {
+								"text": "TimerTotal-1"
+							}
+						}
+					],
+					"sid": 688491131557971
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 658061646391039,
+							"parameters": {
+								"variable": "TimerTotal",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-layer-opacity",
+							"objectClass": "System",
+							"sid": 691548303488288,
+							"parameters": {
+								"layer": "\"Fog\"",
+								"opacity": "0"
+							}
+						},
+						{
+							"callFunction": "Death",
+							"sid": 805147679516396
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 933425826815707,
+							"parameters": {
+								"variable": "TimerTotal",
+								"value": "181"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 703476583327161,
+							"parameters": {
+								"variable": "TimerReset",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-opacity",
+							"objectClass": "Fog",
+							"sid": 990722317914941,
+							"parameters": {
+								"opacity": "0"
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 955643459874870,
+							"parameters": {
+								"variable": "Points",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 130023975663835
+				}
+			],
+			"sid": 909638380902576
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Colisões de Estante",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 850535424375438
+						},
+						{
+							"id": "pick-all",
+							"objectClass": "System",
+							"sid": 481575332560673,
+							"parameters": {
+								"object": "Bookshelf"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 887431980206903,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "for-each-ordered",
+									"objectClass": "System",
+									"sid": 496274127266358,
+									"parameters": {
+										"object": "Bookshelf",
+										"expression": "0",
+										"order": "ascending"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "create-object",
+									"objectClass": "System",
+									"sid": 781973525736775,
+									"parameters": {
+										"object-to-create": "BookshelfCollision",
+										"layer": "\"Collisions\"",
+										"x": "Bookshelf.X",
+										"y": "Bookshelf.Y",
+										"create-hierarchy": false,
+										"template-name": "\"\""
+									}
+								},
+								{
+									"id": "set-size",
+									"objectClass": "BookshelfCollision",
+									"sid": 507455414146459,
+									"parameters": {
+										"width": "Bookshelf.Width+24",
+										"height": "Bookshelf.Height+24"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "BookshelfCollision",
+									"sid": 256720479356925,
+									"parameters": {
+										"visibility": "invisible"
+									}
+								}
+							],
+							"sid": 527202510006150,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "pick-by-comparison",
+											"objectClass": "System",
+											"sid": 595630936453958,
+											"parameters": {
+												"object": "Bookshelf",
+												"expression": "Bookshelf.Angle",
+												"comparison": 0,
+												"value": "90"
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-angle",
+											"objectClass": "BookshelfCollision",
+											"sid": 263573427911183,
+											"parameters": {
+												"angle": "Bookshelf.Angle"
+											}
+										}
+									],
+									"sid": 276986897865726
+								}
+							]
+						}
+					]
+				}
+			],
+			"sid": 390402377766663
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Movimento",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 789354407812838
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "3DCamera",
+							"sid": 501449771777394,
+							"parameters": {
+								"x": "player_cam.X",
+								"y": "player_cam.Y",
+								"z": "6",
+								"which": "camera"
+							}
+						},
+						{
+							"id": "set-angle",
+							"objectClass": "player_cam",
+							"sid": 310604551065964,
+							"parameters": {
+								"angle": "3DCamera.CameraXRotation"
+							}
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "vida",
+							"sid": 555342878362246,
+							"parameters": {
+								"frame-number": "Life"
+							}
+						}
+					],
+					"sid": 700575355356243
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 255723844494595,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "request-pointer-lock",
+							"objectClass": "Mouse",
+							"sid": 570211760360260
+						}
+					],
+					"sid": 996370844096124
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-movement",
+							"objectClass": "Mouse",
+							"sid": 239804564662250
+						}
+					],
+					"actions": [
+						{
+							"id": "rotate-camera",
+							"objectClass": "3DCamera",
+							"sid": 354462167359747,
+							"parameters": {
+								"rotate-x": "Mouse.MovementX/10",
+								"rotate-y": "Mouse.MovementY/10",
+								"min-polar-angle": "0",
+								"max-polar-angle": "360"
+							}
+						}
+					],
+					"sid": 831141424829464
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 201816486646876,
+							"parameters": {
+								"key": 87
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-at-angle",
+							"objectClass": "PLAYER_3D",
+							"sid": 632247782997895,
+							"parameters": {
+								"angle": "3DCamera.CameraXRotation",
+								"distance": "Speed"
+							}
+						},
+						{
+							"id": "push-out-solid-at-angle",
+							"objectClass": "PLAYER_3D",
+							"sid": 764488813865150,
+							"behaviorType": "Custom",
+							"parameters": {
+								"angle": "3DCamera.CameraXRotation + 180"
+							}
+						}
+					],
+					"sid": 457432906375963
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 416334793497871,
+							"parameters": {
+								"key": 83
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-at-angle",
+							"objectClass": "PLAYER_3D",
+							"sid": 469170683204555,
+							"parameters": {
+								"angle": "3DCamera.CameraXRotation",
+								"distance": "-Speed"
+							}
+						},
+						{
+							"id": "push-out-solid-at-angle",
+							"objectClass": "PLAYER_3D",
+							"sid": 506263519953863,
+							"behaviorType": "Custom",
+							"parameters": {
+								"angle": "3DCamera.CameraXRotation"
+							}
+						}
+					],
+					"sid": 585860503091805
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 523070709724763,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-at-angle",
+							"objectClass": "PLAYER_3D",
+							"sid": 450803440293640,
+							"parameters": {
+								"angle": "3DCamera.CameraXRotation - 90",
+								"distance": "Speed"
+							}
+						},
+						{
+							"id": "push-out-solid-at-angle",
+							"objectClass": "PLAYER_3D",
+							"sid": 611664340878936,
+							"behaviorType": "Custom",
+							"parameters": {
+								"angle": "3DCamera.CameraXRotation + 90"
+							}
+						}
+					],
+					"sid": 728672168301705
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 930085544356409,
+							"parameters": {
+								"key": 68
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-at-angle",
+							"objectClass": "PLAYER_3D",
+							"sid": 714628221900602,
+							"parameters": {
+								"angle": "3DCamera.CameraXRotation + 90",
+								"distance": "Speed"
+							}
+						},
+						{
+							"id": "push-out-solid-at-angle",
+							"objectClass": "PLAYER_3D",
+							"sid": 864216638219957,
+							"behaviorType": "Custom",
+							"parameters": {
+								"angle": "3DCamera.CameraXRotation - 90"
+							}
+						}
+					],
+					"sid": 977476280890526
+				}
+			],
+			"sid": 796334948172819
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Inimigos",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Enemy",
+							"sid": 608837248240384,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "PLAYER_3D",
+								"image-point": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "Enemy",
+							"sid": 883831885106062,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"set": "enabled"
+							}
+						},
+						{
+							"id": "find-path",
+							"objectClass": "Enemy",
+							"sid": 409727065920122,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"x": "Enemy.X+random(-500,500)",
+								"y": "Enemy.Y+random(-500,500)"
+							}
+						}
+					],
+					"sid": 966832112816716,
+					"disabled": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 922346914227163,
+							"parameters": {
+								"interval-seconds": "random(3,6)"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "find-path",
+							"objectClass": "Enemy",
+							"sid": 392467004472775,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"x": "Enemy.X+random(-500,500)",
+								"y": "Enemy.Y+random(-500,500)"
+							}
+						}
+					],
+					"sid": 269154797094013
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-path-found",
+							"objectClass": "Enemy",
+							"sid": 376970822089049,
+							"behaviorType": "Pathfinding"
+						}
+					],
+					"actions": [
+						{
+							"id": "move-along-path",
+							"objectClass": "Enemy",
+							"sid": 194343921168510,
+							"behaviorType": "Pathfinding"
+						}
+					],
+					"sid": 896156768185292
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-failed-to-find-path",
+							"objectClass": "Enemy",
+							"sid": 182974363163783,
+							"behaviorType": "Pathfinding"
+						}
+					],
+					"actions": [
+						{
+							"id": "find-path",
+							"objectClass": "Enemy",
+							"sid": 988919899868678,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"x": "Enemy.X+random(-500,500)",
+								"y": "Enemy.Y+random(-500,500)"
+							}
+						}
+					],
+					"sid": 312661071745381
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Enemy",
+							"sid": 589846725347808,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "PLAYER_3D",
+								"image-point": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "Enemy",
+							"sid": 536275035175592,
+							"behaviorType": "Pathfinding"
+						},
+						{
+							"id": "move-to-object",
+							"objectClass": "Enemy",
+							"sid": 485477284822913,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"object": "PLAYER_3D",
+								"image-point": "0",
+								"mode": "direct"
+							}
+						}
+					],
+					"sid": 496205349242345,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "trigger-once-while-true",
+									"objectClass": "System",
+									"sid": 226352119878125
+								},
+								{
+									"id": "is-moving",
+									"objectClass": "Enemy",
+									"sid": 204265874281367,
+									"behaviorType": "MoveTo"
+								}
+							],
+							"actions": [
+								{
+									"id": "play",
+									"objectClass": "DARK",
+									"sid": 871363457649804,
+									"parameters": {
+										"audio-file": "Chasing",
+										"loop": "not-looping",
+										"volume": "-7",
+										"stereo-pan": "0",
+										"tag-optional": "\"Chasing\""
+									}
+								}
+							],
+							"sid": 448047286229112
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-moving",
+							"objectClass": "Enemy",
+							"sid": 772937622290719,
+							"behaviorType": "MoveTo",
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "DARK",
+							"sid": 701452934855760,
+							"parameters": {
+								"tag": "\"Chasing\""
+							}
+						}
+					],
+					"sid": 716955450420624
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Enemy",
+							"sid": 664991822921193,
+							"parameters": {
+								"object": "PLAYER_3D"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "flash",
+							"objectClass": "vida",
+							"sid": 786182305169691,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.2",
+								"off-time": "0.2",
+								"duration": "0.5"
+							}
+						},
+						{
+							"id": "subtract-from-eventvar",
+							"objectClass": "System",
+							"sid": 338638559021684,
+							"parameters": {
+								"variable": "Life",
+								"value": "1"
+							}
+						},
+						{
+							"callFunction": "Lose_Point",
+							"sid": 550571126568908
+						},
+						{
+							"id": "set-position",
+							"objectClass": "PLAYER_3D",
+							"sid": 690146007738123,
+							"parameters": {
+								"x": "510",
+								"y": "1010"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "player_cam",
+							"sid": 143654728057374,
+							"parameters": {
+								"x": "510",
+								"y": "1010"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "Enemy",
+							"sid": 614646504087834,
+							"parameters": {
+								"x": "1050",
+								"y": "490"
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "DARK",
+							"sid": 901003386143909,
+							"parameters": {
+								"audio-file": "cartoon_anime_wind_whoosh_rush_short_71560",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "create-object",
+							"objectClass": "System",
+							"sid": 237683856995685,
+							"disabled": true,
+							"parameters": {
+								"object-to-create": "Enemy",
+								"layer": "\"Jogo\"",
+								"x": "1050",
+								"y": "490",
+								"create-hierarchy": false,
+								"template-name": "\"\""
+							}
+						},
+						{
+							"id": "stop",
+							"objectClass": "Enemy",
+							"sid": 380859277216865,
+							"behaviorType": "MoveTo"
+						}
+					],
+					"sid": 637729356774652
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-created",
+							"objectClass": "Enemy",
+							"sid": 400636269775411
+						}
+					],
+					"actions": [
+						{
+							"id": "set-enabled",
+							"objectClass": "Enemy",
+							"sid": 166687696625742,
+							"behaviorType": "Pathfinding",
+							"parameters": {
+								"set": "enabled"
+							}
+						}
+					],
+					"sid": 244209289747657,
+					"disabled": true
+				}
+			],
+			"sid": 560662444105190
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Pontos",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "PLAYER_3D",
+							"sid": 486367907563173,
+							"parameters": {
+								"object": "Colisão_Livro"
+							}
+						},
+						{
+							"id": "pick-nearestfurthest",
+							"objectClass": "Book",
+							"sid": 596626675854216,
+							"parameters": {
+								"which": "nearest",
+								"x": "PLAYER_3D.X",
+								"y": "PLAYER_3D.Y"
+							}
+						},
+						{
+							"id": "pick-nearestfurthest",
+							"objectClass": "Colisão_Livro",
+							"sid": 619795530868838,
+							"parameters": {
+								"which": "nearest",
+								"x": "PLAYER_3D.X",
+								"y": "PLAYER_3D.Y"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 794802461597388,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 200483629303576,
+									"parameters": {
+										"variable": "English"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-visible",
+									"objectClass": "BookText",
+									"sid": 906111585269735,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "BookText",
+									"sid": 789667057205977,
+									"parameters": {
+										"text": "\"Press E to pick up book\""
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "BookText",
+									"sid": 122895665509303,
+									"parameters": {
+										"visibility": "visible"
+									}
+								}
+							],
+							"sid": 594420548153839
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 214690391732116,
+									"parameters": {
+										"variable": "Portugues"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-visible",
+									"objectClass": "BookText",
+									"sid": 281886206305067,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "BookText",
+									"sid": 244338073248742,
+									"parameters": {
+										"text": "\"Presssione E para pegar livro\""
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "BookText",
+									"sid": 342134135782100,
+									"parameters": {
+										"visibility": "visible"
+									}
+								}
+							],
+							"sid": 470577270889491
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-key-pressed",
+									"objectClass": "Keyboard",
+									"sid": 867674178314563,
+									"parameters": {
+										"key": 69
+									}
+								}
+							],
+							"actions": [
+								{
+									"callFunction": "Pick_Book",
+									"sid": 433279610211728
+								}
+							],
+							"sid": 518617704104463
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 525974851966870
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "BookText",
+							"sid": 751592663632177,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 858563353827187
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 214284031962748,
+							"parameters": {
+								"variable": "Points",
+								"comparison": 0,
+								"value": "MaxBooks"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "LivroMestreDialogo",
+							"sid": 419821556512628,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "LivroMestre_Icone",
+							"sid": 646339372172520,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 125032052503612,
+							"parameters": {
+								"seconds": "4"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "LivroMestreDialogo",
+							"sid": 439424816959863,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "LivroMestre_Icone",
+							"sid": 727613864614953,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 724979301459135,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 445041786802674,
+									"parameters": {
+										"variable": "English"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 182928985801793
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 196287134433281,
+									"parameters": {
+										"variable": "Portugues"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 702016697354376
+						}
+					]
+				},
+				{
+					"eventType": "comment",
+					"text": "Cheat"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 956557209905691,
+							"parameters": {
+								"key": 121
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "DARK",
+							"sid": 323657112529329,
+							"parameters": {
+								"audio-file": "Cheat",
+								"loop": "not-looping",
+								"volume": "-20",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 220795783769549,
+							"parameters": {
+								"variable": "Points",
+								"value": "MaxBooks"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "Score",
+							"sid": 826124281549936,
+							"parameters": {
+								"text": "Points&\"/\"&MaxBooks"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Book",
+							"sid": 672967712002659
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 283064913747177,
+							"parameters": {
+								"variable": "Cheated",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 671104769285712
+				}
+			],
+			"sid": 589420307270981
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Portas",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "PLAYER_3D",
+							"sid": 173612833959288,
+							"parameters": {
+								"object": "Door1"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 388692772935842,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 698991779008891,
+									"parameters": {
+										"variable": "Portugues"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-visible",
+									"objectClass": "DoorText",
+									"sid": 655430819837779,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "DoorText",
+									"sid": 708536248570038,
+									"parameters": {
+										"text": "\"Segure E para abrir porta\""
+									}
+								}
+							],
+							"sid": 943002669170658
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 739367176163519,
+									"parameters": {
+										"variable": "English"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-visible",
+									"objectClass": "DoorText",
+									"sid": 139160381078410,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "DoorText",
+									"sid": 284057886694841,
+									"parameters": {
+										"text": "\"Hold E to open door\""
+									}
+								}
+							],
+							"sid": 322723740594140
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 365068581280402,
+									"parameters": {
+										"variable": "Points",
+										"comparison": 0,
+										"value": "6"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 725110510166011,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "key-is-down",
+											"objectClass": "Keyboard",
+											"sid": 636614721563429,
+											"parameters": {
+												"key": 69
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "set-text",
+											"objectClass": "DoorText",
+											"sid": 659757479722672,
+											"parameters": {
+												"text": "\"Não preciso voltar para lá...\""
+											}
+										}
+									],
+									"sid": 630547755211328
+								}
+							]
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 644603162782057,
+									"parameters": {
+										"variable": "Points",
+										"comparison": 1,
+										"value": "6"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 262237006853270,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-key-pressed",
+											"objectClass": "Keyboard",
+											"sid": 835470188841514,
+											"parameters": {
+												"key": 69
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "go-to-layout",
+											"objectClass": "System",
+											"sid": 923115164313623,
+											"parameters": {
+												"layout": "Level1"
+											}
+										},
+										{
+											"id": "set-position",
+											"objectClass": "PLAYER_3D",
+											"sid": 231121044525652,
+											"parameters": {
+												"x": "510",
+												"y": "1010"
+											}
+										},
+										{
+											"id": "set-angle",
+											"objectClass": "PLAYER_3D",
+											"sid": 100048694919346,
+											"parameters": {
+												"angle": "270"
+											}
+										}
+									],
+									"sid": 308377323510396
+								}
+							]
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "PLAYER_3D",
+							"sid": 176782576813574,
+							"parameters": {
+								"object": "Door0"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 567931498927008,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 901965956017179,
+									"parameters": {
+										"variable": "Portugues"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-visible",
+									"objectClass": "DoorText",
+									"sid": 659166222209501,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "DoorText",
+									"sid": 492889721931896,
+									"parameters": {
+										"text": "\"          Segure E para abrir porta\""
+									}
+								}
+							],
+							"sid": 246217270194684
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 956711694633094,
+									"parameters": {
+										"variable": "English"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-visible",
+									"objectClass": "DoorText",
+									"sid": 584730290219930,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "DoorText",
+									"sid": 784660932786783,
+									"parameters": {
+										"text": "\"          Hold E to open door\""
+									}
+								}
+							],
+							"sid": 214030981806092
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 229034672472410,
+									"parameters": {
+										"variable": "Points",
+										"comparison": 1,
+										"value": "6"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 768668792587405,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "key-is-down",
+											"objectClass": "Keyboard",
+											"sid": 181444098693048,
+											"parameters": {
+												"key": 69
+											}
+										}
+									],
+									"actions": [],
+									"sid": 716342982063725,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 750467142932373,
+													"parameters": {
+														"variable": "Portugues"
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-text",
+													"objectClass": "DoorText",
+													"sid": 119170439231857,
+													"parameters": {
+														"text": "\"      Eu ainda preciso de alguns livros...\""
+													}
+												}
+											],
+											"sid": 784417213291866
+										},
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "compare-boolean-eventvar",
+													"objectClass": "System",
+													"sid": 214454418440912,
+													"parameters": {
+														"variable": "English"
+													}
+												}
+											],
+											"actions": [
+												{
+													"id": "set-text",
+													"objectClass": "DoorText",
+													"sid": 306605884041015,
+													"parameters": {
+														"text": "\"      I still need some books...\""
+													}
+												}
+											],
+											"sid": 126256565196148
+										}
+									]
+								}
+							]
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-eventvar",
+									"objectClass": "System",
+									"sid": 506872418374690,
+									"parameters": {
+										"variable": "Points",
+										"comparison": 0,
+										"value": "6"
+									}
+								}
+							],
+							"actions": [],
+							"sid": 573224339056539,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "on-key-pressed",
+											"objectClass": "Keyboard",
+											"sid": 114869807485770,
+											"parameters": {
+												"key": 69
+											}
+										}
+									],
+									"actions": [
+										{
+											"id": "go-to-layout",
+											"objectClass": "System",
+											"sid": 810972141121700,
+											"parameters": {
+												"layout": "Entrada"
+											}
+										},
+										{
+											"id": "set-position",
+											"objectClass": "PLAYER_3D",
+											"sid": 597591173684370,
+											"parameters": {
+												"x": "124",
+												"y": "40"
+											}
+										},
+										{
+											"id": "set-angle",
+											"objectClass": "PLAYER_3D",
+											"sid": 264489656950076,
+											"parameters": {
+												"angle": "90"
+											}
+										},
+										{
+											"id": "stop",
+											"objectClass": "DARK",
+											"sid": 629416573237878,
+											"parameters": {
+												"tag": "\"Chasing\""
+											}
+										}
+									],
+									"sid": 810617165073772
+								}
+							]
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "PLAYER_3D",
+							"sid": 910225232281406,
+							"parameters": {
+								"object": "Exit_Door"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 115916541276778,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 292193122271755,
+									"parameters": {
+										"variable": "Portugues"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-visible",
+									"objectClass": "DoorText",
+									"sid": 421498459782830,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "DoorText",
+									"sid": 561890457831135,
+									"parameters": {
+										"text": "\"Segure E para sair da Biblioteca\""
+									}
+								},
+								{
+									"callFunction": "Locked Door",
+									"sid": 639744210455264
+								}
+							],
+							"sid": 477539213678817
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 156190298494371,
+									"parameters": {
+										"variable": "English"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-visible",
+									"objectClass": "DoorText",
+									"sid": 805122469659143,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "DoorText",
+									"sid": 867271348938966,
+									"parameters": {
+										"text": "\"Hold E to leave the Library\""
+									}
+								},
+								{
+									"callFunction": "Locked Door",
+									"sid": 810978492268901
+								}
+							],
+							"sid": 293096246202477
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "PLAYER_3D",
+							"sid": 977233375087960,
+							"parameters": {
+								"object": "Door2"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 919740562294641,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 227359795502271,
+									"parameters": {
+										"variable": "Portugues"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-visible",
+									"objectClass": "DoorText",
+									"sid": 733122987535650,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "DoorText",
+									"sid": 841271306418971,
+									"parameters": {
+										"text": "\"Segure E para abrir porta\""
+									}
+								},
+								{
+									"callFunction": "Locked Door",
+									"sid": 411830640506416
+								}
+							],
+							"sid": 913620643033072
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 795187680265141,
+									"parameters": {
+										"variable": "English"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-visible",
+									"objectClass": "DoorText",
+									"sid": 597100347769991,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "DoorText",
+									"sid": 205493719519594,
+									"parameters": {
+										"text": "\"Hold E to open door\""
+									}
+								},
+								{
+									"callFunction": "Locked Door",
+									"sid": 197826571871785
+								}
+							],
+							"sid": 739818747134618
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "PLAYER_3D",
+							"sid": 656771818686596,
+							"parameters": {
+								"object": "Door3"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 770977314846671,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 321761803668333,
+									"parameters": {
+										"variable": "Portugues"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-visible",
+									"objectClass": "DoorText",
+									"sid": 265897191634102,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "DoorText",
+									"sid": 337753440737912,
+									"parameters": {
+										"text": "\"Segure E para abrir porta\""
+									}
+								},
+								{
+									"callFunction": "Locked Door",
+									"sid": 990452645766109
+								}
+							],
+							"sid": 373617407155341
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 360127937811669,
+									"parameters": {
+										"variable": "English"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-visible",
+									"objectClass": "DoorText",
+									"sid": 936139200255872,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "DoorText",
+									"sid": 510358090996950,
+									"parameters": {
+										"text": "\"Hold E to open door\""
+									}
+								},
+								{
+									"callFunction": "Locked Door",
+									"sid": 690169397803418
+								}
+							],
+							"sid": 924389400500647
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "PLAYER_3D",
+							"sid": 697760189604145,
+							"parameters": {
+								"object": "Exit_Door"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "PLAYER_3D",
+							"sid": 954712798653171,
+							"parameters": {
+								"object": "Door3"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "PLAYER_3D",
+							"sid": 519318376918377,
+							"parameters": {
+								"object": "Door2"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "PLAYER_3D",
+							"sid": 445038592471227,
+							"parameters": {
+								"object": "Door0"
+							},
+							"isInverted": true
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "PLAYER_3D",
+							"sid": 490755814156013,
+							"parameters": {
+								"object": "Door1"
+							},
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-visible",
+							"objectClass": "DoorText",
+							"sid": 605580676048340,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						}
+					],
+					"sid": 955587173593186
+				}
+			],
+			"sid": 910427379978726
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Interação Livro Mestre",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "PLAYER_3D",
+							"sid": 999359219809452,
+							"parameters": {
+								"object": "Colisão_LivroMestre0"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 147526285889457
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Help",
+							"sid": 163681562480382
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Colisão_LivroMestre0",
+							"sid": 546020542879584
+						}
+					],
+					"sid": 670087766025876,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 999454975730240,
+									"parameters": {
+										"variable": "Portugues"
+									}
+								}
+							],
+							"actions": [
+								{
+									"callFunction": "TutoPortugues",
+									"sid": 596477144554443
+								}
+							],
+							"sid": 261432722105924
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 997135407521053,
+									"parameters": {
+										"variable": "English"
+									}
+								}
+							],
+							"actions": [
+								{
+									"callFunction": "TutoEnglish",
+									"sid": 848274934096185
+								}
+							],
+							"sid": 402071496930336
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 503306100932485,
+							"parameters": {
+								"variable": "Points",
+								"comparison": 0,
+								"value": "MaxBooks"
+							}
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "PLAYER_3D",
+							"sid": 566131477545033,
+							"parameters": {
+								"object": "Colisão_LivroMestre1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Colisão_LivroMestre1",
+							"sid": 948917866964926
+						}
+					],
+					"sid": 217657667885421,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 974810253728105,
+									"parameters": {
+										"variable": "Portugues"
+									}
+								}
+							],
+							"actions": [
+								{
+									"callFunction": "Level1EndPortugues",
+									"sid": 284844012451543
+								}
+							],
+							"sid": 662751418741093
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 963527150671258,
+									"parameters": {
+										"variable": "English"
+									}
+								}
+							],
+							"actions": [
+								{
+									"callFunction": "Level1EndEnglish",
+									"sid": 151758458441257
+								}
+							],
+							"sid": 405550551660574
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 133662225209079,
+							"parameters": {
+								"variable": "Points",
+								"comparison": 0,
+								"value": "MaxBooks"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Colisão_LivroMestre0",
+							"sid": 466527392315153
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Colisão_LivroMestre0",
+							"sid": 999621368645187
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Help",
+							"sid": 528923123632924
+						}
+					],
+					"sid": 827142163557056
+				}
+			],
+			"sid": 314667610830469
+		}
+	],
+	"sid": 837358846922031
+}

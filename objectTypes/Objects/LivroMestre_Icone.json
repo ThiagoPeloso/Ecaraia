@@ -1,0 +1,57 @@
+{
+	"name": "LivroMestre_Icone",
+	"plugin-id": "Sprite",
+	"sid": 134035232242026,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 224,
+						"height": 225,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4568133,
+						"collisionPoly": {
+							"points": [
+								0.16517857142857142,
+								0.16444444444444445,
+								0.5,
+								0.07555555555555556,
+								0.8303571428571429,
+								0.16444444444444445,
+								0.96875,
+								0.5,
+								0.9955357142857143,
+								0.9955555555555555,
+								0.5,
+								0.9955555555555555,
+								0,
+								0.9955555555555555,
+								0.026785714285714284,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 133148941478452,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,1051 @@
+{
+	"name": "Puzzle_sheet",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Pontos",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 330070087123119
+		},
+		{
+			"eventType": "variable",
+			"name": "Timer",
+			"type": "number",
+			"initialValue": "121",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 854688050126033
+		},
+		{
+			"eventType": "variable",
+			"name": "randomRotate",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 104674601454807
+		},
+		{
+			"eventType": "variable",
+			"name": "TimerStop",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 668702189486336
+		},
+		{
+			"eventType": "variable",
+			"name": "Win",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 332329075533949
+		},
+		{
+			"eventType": "variable",
+			"name": "Started",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 548716984909488
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Movimentação",
+			"description": "Movimentação das peças",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 114829226050819
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Boitata",
+							"sid": 656891112650629,
+							"parameters": {
+								"instance-variable": "Angulo",
+								"value": "Boitata.Angle"
+							}
+						}
+					],
+					"sid": 662071044491404
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-drop",
+							"objectClass": "Boitata",
+							"sid": 519937877084311,
+							"behaviorType": "DragDrop"
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Boitata",
+							"sid": 230236158905948,
+							"parameters": {
+								"object": "Boitata1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "Boitata",
+							"sid": 742116935608910,
+							"parameters": {
+								"object": "Boitata1",
+								"image-point-optional": "0"
+							}
+						}
+					],
+					"sid": 638506061895367,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-animation-frame",
+									"objectClass": "Boitata",
+									"sid": 538006277508813,
+									"parameters": {
+										"comparison": 0,
+										"number": "0"
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Boitata",
+									"sid": 811240465609519,
+									"parameters": {
+										"instance-variable": "Angulo",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 797032294544133,
+									"parameters": {
+										"variable": "Pontos",
+										"value": "Pontos+1"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Score",
+									"sid": 652782423493050,
+									"parameters": {
+										"text": "Pontos&\"/6\""
+									}
+								},
+								{
+									"id": "set-enabled",
+									"objectClass": "Boitata",
+									"sid": 983845312469467,
+									"behaviorType": "DragDrop",
+									"parameters": {
+										"state": "disabled"
+									}
+								},
+								{
+									"id": "move-to-bottom",
+									"objectClass": "Boitata",
+									"sid": 952763605685068
+								},
+								{
+									"id": "destroy",
+									"objectClass": "Boitata1",
+									"sid": 457320663428133
+								}
+							],
+							"sid": 715719977073522
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-drop",
+							"objectClass": "Boitata",
+							"sid": 497270271963051,
+							"behaviorType": "DragDrop"
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Boitata",
+							"sid": 658972962999685,
+							"parameters": {
+								"object": "Boitata2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "Boitata",
+							"sid": 601861612657368,
+							"parameters": {
+								"object": "Boitata2",
+								"image-point-optional": "0"
+							}
+						}
+					],
+					"sid": 376535423615064,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-animation-frame",
+									"objectClass": "Boitata",
+									"sid": 752707539006904,
+									"parameters": {
+										"comparison": 0,
+										"number": "1"
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Boitata",
+									"sid": 443057981984027,
+									"parameters": {
+										"instance-variable": "Angulo",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 839970054182383,
+									"parameters": {
+										"variable": "Pontos",
+										"value": "Pontos+1"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Score",
+									"sid": 477100140797662,
+									"parameters": {
+										"text": "Pontos&\"/6\""
+									}
+								},
+								{
+									"id": "set-enabled",
+									"objectClass": "Boitata",
+									"sid": 380486173989233,
+									"behaviorType": "DragDrop",
+									"parameters": {
+										"state": "disabled"
+									}
+								},
+								{
+									"id": "move-to-bottom",
+									"objectClass": "Boitata",
+									"sid": 518264111662704
+								},
+								{
+									"id": "destroy",
+									"objectClass": "Boitata2",
+									"sid": 902910252727150
+								}
+							],
+							"sid": 587506993447517
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-drop",
+							"objectClass": "Boitata",
+							"sid": 707654974639145,
+							"behaviorType": "DragDrop"
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Boitata",
+							"sid": 225181243045926,
+							"parameters": {
+								"object": "Boitata3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "Boitata",
+							"sid": 544093428321511,
+							"parameters": {
+								"object": "Boitata3",
+								"image-point-optional": "0"
+							}
+						}
+					],
+					"sid": 352812745323745,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-animation-frame",
+									"objectClass": "Boitata",
+									"sid": 429682877715714,
+									"parameters": {
+										"comparison": 0,
+										"number": "2"
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Boitata",
+									"sid": 972497581704455,
+									"parameters": {
+										"instance-variable": "Angulo",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 743278027573291,
+									"parameters": {
+										"variable": "Pontos",
+										"value": "Pontos+1"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Score",
+									"sid": 920555250445735,
+									"parameters": {
+										"text": "Pontos&\"/6\""
+									}
+								},
+								{
+									"id": "set-enabled",
+									"objectClass": "Boitata",
+									"sid": 196803516989142,
+									"behaviorType": "DragDrop",
+									"parameters": {
+										"state": "disabled"
+									}
+								},
+								{
+									"id": "move-to-bottom",
+									"objectClass": "Boitata",
+									"sid": 767817324262231
+								},
+								{
+									"id": "destroy",
+									"objectClass": "Boitata3",
+									"sid": 688380987417587
+								}
+							],
+							"sid": 163952830006862
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-drop",
+							"objectClass": "Boitata",
+							"sid": 554537320270899,
+							"behaviorType": "DragDrop"
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Boitata",
+							"sid": 639349399297510,
+							"parameters": {
+								"object": "Boitata4"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "Boitata",
+							"sid": 375739838298610,
+							"parameters": {
+								"object": "Boitata4",
+								"image-point-optional": "0"
+							}
+						}
+					],
+					"sid": 867158582447728,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-animation-frame",
+									"objectClass": "Boitata",
+									"sid": 131714925645216,
+									"parameters": {
+										"comparison": 0,
+										"number": "3"
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Boitata",
+									"sid": 436846999320852,
+									"parameters": {
+										"instance-variable": "Angulo",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 442041183298628,
+									"parameters": {
+										"variable": "Pontos",
+										"value": "Pontos+1"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Score",
+									"sid": 282999116778064,
+									"parameters": {
+										"text": "Pontos&\"/6\""
+									}
+								},
+								{
+									"id": "set-enabled",
+									"objectClass": "Boitata",
+									"sid": 300086468992217,
+									"behaviorType": "DragDrop",
+									"parameters": {
+										"state": "disabled"
+									}
+								},
+								{
+									"id": "move-to-bottom",
+									"objectClass": "Boitata",
+									"sid": 818650949371914
+								},
+								{
+									"id": "destroy",
+									"objectClass": "Boitata4",
+									"sid": 633776982296304
+								}
+							],
+							"sid": 522215276619562
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-drop",
+							"objectClass": "Boitata",
+							"sid": 110857841735774,
+							"behaviorType": "DragDrop"
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Boitata",
+							"sid": 144048996913543,
+							"parameters": {
+								"object": "Boitata5"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "Boitata",
+							"sid": 232150116505501,
+							"parameters": {
+								"object": "Boitata5",
+								"image-point-optional": "0"
+							}
+						}
+					],
+					"sid": 521217474969816,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-animation-frame",
+									"objectClass": "Boitata",
+									"sid": 224904460330531,
+									"parameters": {
+										"comparison": 0,
+										"number": "4"
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Boitata",
+									"sid": 350509531843033,
+									"parameters": {
+										"instance-variable": "Angulo",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 489689615650333,
+									"parameters": {
+										"variable": "Pontos",
+										"value": "Pontos+1"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Score",
+									"sid": 354926810775112,
+									"parameters": {
+										"text": "Pontos&\"/6\""
+									}
+								},
+								{
+									"id": "set-enabled",
+									"objectClass": "Boitata",
+									"sid": 410345824284596,
+									"behaviorType": "DragDrop",
+									"parameters": {
+										"state": "disabled"
+									}
+								},
+								{
+									"id": "move-to-bottom",
+									"objectClass": "Boitata",
+									"sid": 813564643367887
+								},
+								{
+									"id": "destroy",
+									"objectClass": "Boitata5",
+									"sid": 989217093470060
+								}
+							],
+							"sid": 988311461726999
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-drop",
+							"objectClass": "Boitata",
+							"sid": 128082691024947,
+							"behaviorType": "DragDrop"
+						},
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "Boitata",
+							"sid": 898149338101184,
+							"parameters": {
+								"object": "Boitata6"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position-to-another-object",
+							"objectClass": "Boitata",
+							"sid": 389844553659026,
+							"parameters": {
+								"object": "Boitata6",
+								"image-point-optional": "0"
+							}
+						}
+					],
+					"sid": 475910617434165,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-animation-frame",
+									"objectClass": "Boitata",
+									"sid": 991265921236313,
+									"parameters": {
+										"comparison": 0,
+										"number": "5"
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Boitata",
+									"sid": 421383135701738,
+									"parameters": {
+										"instance-variable": "Angulo",
+										"comparison": 0,
+										"value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-eventvar-value",
+									"objectClass": "System",
+									"sid": 960281538987486,
+									"parameters": {
+										"variable": "Pontos",
+										"value": "Pontos+1"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Score",
+									"sid": 234226239358202,
+									"parameters": {
+										"text": "Pontos&\"/6\""
+									}
+								},
+								{
+									"id": "set-enabled",
+									"objectClass": "Boitata",
+									"sid": 103708423667579,
+									"behaviorType": "DragDrop",
+									"parameters": {
+										"state": "disabled"
+									}
+								},
+								{
+									"id": "move-to-bottom",
+									"objectClass": "Boitata",
+									"sid": 783416895634696
+								},
+								{
+									"id": "destroy",
+									"objectClass": "Boitata6",
+									"sid": 274615855389341
+								}
+							],
+							"sid": 149901332669155
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 231721797314463,
+							"parameters": {
+								"key": 81
+							}
+						},
+						{
+							"id": "is-dragging",
+							"objectClass": "Boitata",
+							"sid": 244179830310935,
+							"behaviorType": "DragDrop"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle",
+							"objectClass": "Boitata",
+							"sid": 467044347161875,
+							"parameters": {
+								"angle": "Boitata.Angle-90"
+							}
+						}
+					],
+					"sid": 524109757484957
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 564317096711656,
+							"parameters": {
+								"key": 69
+							}
+						},
+						{
+							"id": "is-dragging",
+							"objectClass": "Boitata",
+							"sid": 505935478833071,
+							"behaviorType": "DragDrop"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-angle",
+							"objectClass": "Boitata",
+							"sid": 483475839137812,
+							"parameters": {
+								"angle": "Boitata.Angle+90"
+							}
+						}
+					],
+					"sid": 541190356632851
+				}
+			],
+			"sid": 620768718883642
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Global",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 333463968276197
+						}
+					],
+					"actions": [
+						{
+							"id": "release-pointer-lock",
+							"objectClass": "Mouse",
+							"sid": 885289084884677
+						}
+					],
+					"sid": 709704972567841
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-dragging",
+							"objectClass": "Boitata",
+							"sid": 187884673312591,
+							"behaviorType": "DragDrop"
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 420456210844836
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 197560131515955,
+							"parameters": {
+								"variable": "Started",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 953857516089805
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 217899308265638,
+							"parameters": {
+								"variable": "Started"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 531129806303735,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 983674820113104,
+									"parameters": {
+										"interval-seconds": "1.0"
+									}
+								},
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 591003614003228,
+									"parameters": {
+										"variable": "TimerStop"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-eventvar",
+									"objectClass": "System",
+									"sid": 870581272152590,
+									"parameters": {
+										"variable": "Timer",
+										"value": "1"
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "Timer",
+									"sid": 721833726043427,
+									"parameters": {
+										"text": "Timer-1"
+									}
+								}
+							],
+							"sid": 166651357239837
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 714478666130922,
+							"parameters": {
+								"variable": "Pontos",
+								"comparison": 2,
+								"value": "6"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 838713450393422,
+							"parameters": {
+								"variable": "Timer",
+								"comparison": 2,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 250396831915487,
+							"parameters": {
+								"layout": "GameOverPT"
+							}
+						},
+						{
+							"id": "reset-global-variables",
+							"objectClass": "System",
+							"sid": 962252240776418
+						}
+					],
+					"sid": 417117221595869
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 399812573951495,
+							"parameters": {
+								"variable": "Pontos",
+								"comparison": 5,
+								"value": "6"
+							}
+						},
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 937968157984864,
+							"parameters": {
+								"variable": "Timer",
+								"comparison": 5,
+								"value": "0"
+							}
+						},
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 514125313105663
+						}
+					],
+					"actions": [
+						{
+							"id": "toggle-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 121723429770536,
+							"parameters": {
+								"variable": "TimerStop"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Timer",
+							"sid": 230483182939936
+						},
+						{
+							"id": "destroy",
+							"objectClass": "TutorialPuzzle",
+							"sid": 312594523216847
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "TimerFinal",
+							"sid": 539500340563396,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-text",
+							"objectClass": "TimerFinal",
+							"sid": 708405045688535,
+							"parameters": {
+								"text": "Timer-1"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "HistoriaBoitata",
+							"sid": 436881226331615,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 920072652177696,
+							"parameters": {
+								"seconds": "5"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "ContinueText",
+							"sid": 230081762836343,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 912971175439198,
+							"parameters": {
+								"variable": "Win",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 664174476783643
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 685731544733685,
+							"parameters": {
+								"key": 69
+							}
+						},
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 916530975945338,
+							"parameters": {
+								"variable": "Win"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 824380051658367,
+							"parameters": {
+								"layout": "VoceVenceu"
+							}
+						},
+						{
+							"id": "reset-global-variables",
+							"objectClass": "System",
+							"sid": 143756377558034
+						}
+					],
+					"sid": 718222639458043
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 236252778344974,
+							"parameters": {
+								"key": 120
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-nextprevious-layout",
+							"objectClass": "System",
+							"sid": 334466508203342,
+							"parameters": {
+								"which": "next"
+							}
+						}
+					],
+					"sid": 347211732357407
+				}
+			],
+			"sid": 154863494661510
+		}
+	],
+	"sid": 627815963750331
+}

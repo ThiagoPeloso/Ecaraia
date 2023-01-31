@@ -1,0 +1,11 @@
+{
+	"name": "Bookshelves",
+	"plugin-id": "Shape3D",
+	"sid": 543674353906060,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"Bookshelf"
+	]
+}

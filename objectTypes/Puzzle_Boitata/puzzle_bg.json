@@ -1,0 +1,37 @@
+{
+	"name": "puzzle_bg",
+	"plugin-id": "Sprite",
+	"sid": 944049507384095,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 498,
+						"height": 370,
+						"originX": 0.5100401606425703,
+						"originY": 0.4810810810810811,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 256929,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 278981244997762,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

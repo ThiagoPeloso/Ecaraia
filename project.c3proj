@@ -1,0 +1,531 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 32702,
+	"name": "Eçaraia",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Áudio",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Camera3D",
+			"name": "Câmera 3D",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Teclado",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Shape3D",
+			"name": "Forma 3D",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Texto",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Plano de Fundo em Blocos",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "DragnDrop",
+			"name": "Arrastar & Soltar",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Fade",
+			"name": "Esmaecer",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Flash",
+			"name": "Piscar",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "LOS",
+			"name": "Campo de visão",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "MoveTo",
+			"name": "Mover Para",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pathfinding",
+			"name": "Explorador de rotas",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Pin",
+			"name": "Atrelar",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Senóide",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "Restrito ao layout",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "custom",
+			"name": "Personalizado",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Sólido",
+			"author": "Scirra",
+			"bundled": false
+		}
+	],
+	"uniqueId": "3re6b0eae3p",
+	"objectTypes": {
+		"items": [
+			"Colisão_LivroMestre1",
+			"Help",
+			"Dialogo",
+			"TimerTrigger",
+			"TimerGame",
+			"Texto"
+		],
+		"subfolders": [
+			{
+				"items": [
+					"Boitata1",
+					"Boitata2",
+					"Boitata3",
+					"Boitata4",
+					"Boitata5",
+					"Boitata6",
+					"Boitata",
+					"puzzle_bg",
+					"HistoriaBoitata",
+					"ContinueText",
+					"Timer",
+					"TutorialPuzzle",
+					"TimerFinal"
+				],
+				"subfolders": [],
+				"name": "Puzzle_Boitata"
+			},
+			{
+				"items": [
+					"3DCamera",
+					"Mouse",
+					"PLAYER_3D",
+					"player_cam",
+					"Score",
+					"Keyboard",
+					"Spawn"
+				],
+				"subfolders": [],
+				"name": "Player"
+			},
+			{
+				"items": [
+					"Bookshelf",
+					"Wall_Roof",
+					"Wooden_floor",
+					"DARK",
+					"Lanterna",
+					"vida",
+					"LivroMestreDialogo",
+					"BookText",
+					"DoorText",
+					"BookshelfCollision",
+					"Fog"
+				],
+				"subfolders": [],
+				"name": "Background"
+			},
+			{
+				"items": [
+					"LivroMestre",
+					"Book",
+					"Colisão_Livro",
+					"Colisão_LivroMestre0",
+					"Pistas",
+					"LivroMestre_Icone"
+				],
+				"subfolders": [],
+				"name": "Objects"
+			},
+			{
+				"items": [
+					"Enemy",
+					"Spawner",
+					"GameOver"
+				],
+				"subfolders": [],
+				"name": "Enemy"
+			},
+			{
+				"items": [
+					"LivroMestrebt",
+					"Wall_Roof_inicio",
+					"Tutorial"
+				],
+				"subfolders": [],
+				"name": "Entrada"
+			},
+			{
+				"items": [
+					"Door0",
+					"Door1",
+					"Door2",
+					"Door3",
+					"Exit_Door"
+				],
+				"subfolders": [],
+				"name": "Doors"
+			},
+			{
+				"items": [
+					"MenuExit",
+					"MenuImagemPortugues",
+					"MenuLoad",
+					"MenuStart",
+					"Fade",
+					"MenuImagemLoad",
+					"MenuBR"
+				],
+				"subfolders": [],
+				"name": "Menu"
+			}
+		]
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [
+			"Bookshelves"
+		],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Level1",
+			"GameOverPT",
+			"GameOverEN",
+			"Entrada",
+			"Boitata_puzzle",
+			"VoceVenceu",
+			"YouWin",
+			"Menu",
+			"Load"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"EventSheet_Jogo",
+			"VoceVenceu_Sheet",
+			"Functions",
+			"Puzzle_sheet",
+			"GameOver_Sheet",
+			"Menu_Sheet",
+			"Load_Sheet",
+			"YouWin_Sheet"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [
+				{
+					"name": "horror_monster_groan_cry_distant_cave_dungeon.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 732091064857072,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Chasing.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 495620907906482,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "cartoon_anime_wind_whoosh_rush_short_71560.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 251281463350113,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Menu Selection Click.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 399701423712944,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "selectsound.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 769746715501595,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "zapsplat_foley_footstep_single_shoe_childs_on_wooden_outdoor_deck_009_39534.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 407917945782585,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Cheat.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 453166410574101,
+					"file-info": {
+						"purpose": "none"
+					}
+				},
+				{
+					"name": "Alert.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 369947427823941,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"music": {
+			"items": [
+				{
+					"name": "Main Theme.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 148728907562208,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [
+				{
+					"name": "shlop rg.otf",
+					"type": "application/font-sfnt",
+					"sid": 103544823783919,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 179207393293995,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 836983654238239,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 313025348829132,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 541781058749321,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 304191694863904,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 647309712853019,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 600731575980413,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Timeline 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": false,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"webgpu": "auto",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"zNear": 1,
+		"zFar": 10000,
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https",
+		"autoReloadScriptsOnPreview": false,
+		"exportFileStructure": "flat"
+	},
+	"viewportWidth": 1280,
+	"viewportHeight": 1000,
+	"firstLayout": "Menu"
+}

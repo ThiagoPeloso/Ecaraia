@@ -1,0 +1,57 @@
+{
+	"name": "Pistas",
+	"plugin-id": "Sprite",
+	"sid": 475554509006863,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 50,
+						"height": 50,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8232401,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.5,
+								0,
+								0.967741935483871,
+								0,
+								0.967741935483871,
+								0.5,
+								0.967741935483871,
+								0.967741935483871,
+								0.5,
+								0.967741935483871,
+								0,
+								0.967741935483871,
+								0,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 121424817213691,
+				"name": "Pista",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 0
+			}
+		],
+		"subfolders": []
+	}
+}

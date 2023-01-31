@@ -1,0 +1,384 @@
+{
+	"name": "Menu_Sheet",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Hovering",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 406355029787828
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 874202350823512
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "DARK",
+					"sid": 183922997154450
+				},
+				{
+					"id": "release-pointer-lock",
+					"objectClass": "Mouse",
+					"sid": 196206317396917
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 197908501113343,
+					"parameters": {
+						"variable": "TimerReset",
+						"value": "false"
+					}
+				},
+				{
+					"id": "set-animation-frame",
+					"objectClass": "MenuImagemPortugues",
+					"sid": 555198586036123,
+					"parameters": {
+						"frame-number": "0"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 337119847584639,
+					"parameters": {
+						"variable": "Life",
+						"value": "3"
+					}
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 474156200481516,
+					"parameters": {
+						"variable": "Pontos",
+						"value": "0"
+					}
+				}
+			],
+			"sid": 578981711276561
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 280975779547650,
+					"parameters": {
+						"object": "MenuStart"
+					},
+					"isInverted": true
+				},
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 812034740550159,
+					"parameters": {
+						"object": "MenuLoad"
+					},
+					"isInverted": true
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "MenuImagemPortugues",
+					"sid": 900184864086334,
+					"parameters": {
+						"frame-number": "0"
+					}
+				}
+			],
+			"sid": 159614565756756
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 588576663556578,
+					"parameters": {
+						"object": "MenuStart"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "MenuImagemPortugues",
+					"sid": 530132854851545,
+					"parameters": {
+						"frame-number": "1"
+					}
+				}
+			],
+			"sid": 906020477662120,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 409475043647908
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "DARK",
+							"sid": 158836104029107,
+							"parameters": {
+								"audio-file": "Menu Selection Click",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 573690703219870
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 530340081677243,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "DARK",
+							"sid": 760973146954098,
+							"parameters": {
+								"audio-file": "selectsound",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "MenuStart",
+							"sid": 993219979497136
+						},
+						{
+							"id": "destroy",
+							"objectClass": "MenuLoad",
+							"sid": 433594918062638
+						},
+						{
+							"id": "destroy",
+							"objectClass": "MenuExit",
+							"sid": 604291771648116
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Fade",
+							"sid": 264971448871699,
+							"parameters": {
+								"visibility": "visible"
+							}
+						},
+						{
+							"id": "start-fade",
+							"objectClass": "Fade",
+							"sid": 297554328370375,
+							"behaviorType": "Esmaecer"
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 599305286941153,
+							"parameters": {
+								"seconds": "3"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 479188932337307,
+							"parameters": {
+								"layout": "Entrada"
+							}
+						},
+						{
+							"id": "set-position",
+							"objectClass": "PLAYER_3D",
+							"sid": 303176884390577,
+							"parameters": {
+								"x": "180",
+								"y": "850"
+							}
+						},
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 895396483749373,
+							"parameters": {
+								"variable": "TimerReset",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 928329305796510
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 232037390501051,
+					"parameters": {
+						"object": "MenuLoad"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "MenuImagemPortugues",
+					"sid": 105522190244631,
+					"parameters": {
+						"frame-number": "2"
+					}
+				}
+			],
+			"sid": 685231114294431,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "trigger-once-while-true",
+							"objectClass": "System",
+							"sid": 565099358728961
+						}
+					],
+					"actions": [
+						{
+							"id": "play",
+							"objectClass": "DARK",
+							"sid": 328617177207132,
+							"parameters": {
+								"audio-file": "Menu Selection Click",
+								"loop": "not-looping",
+								"volume": "0",
+								"stereo-pan": "0",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 131231393981674
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 771579174960235,
+							"parameters": {
+								"mouse-button": "left",
+								"click-type": "clicked"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "MenuStart",
+							"sid": 178077057863306
+						},
+						{
+							"id": "destroy",
+							"objectClass": "MenuLoad",
+							"sid": 409319880372207
+						},
+						{
+							"id": "destroy",
+							"objectClass": "MenuExit",
+							"sid": 340526444871388
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 671711742293751,
+							"parameters": {
+								"layout": "Load"
+							}
+						}
+					],
+					"sid": 194599618485635
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 560838193741852,
+					"parameters": {
+						"object": "MenuExit"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 880411647232929
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "MenuImagemPortugues",
+					"sid": 238544736130335,
+					"parameters": {
+						"frame-number": "5"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "DARK",
+					"sid": 489660179701904,
+					"parameters": {
+						"audio-file": "Menu Selection Click",
+						"loop": "not-looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 694278180802064,
+			"disabled": true
+		}
+	],
+	"sid": 104319222013975
+}

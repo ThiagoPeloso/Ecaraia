@@ -1,0 +1,51 @@
+{
+	"name": "GameOver_Sheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 802670876967685,
+					"parameters": {
+						"key": 69
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 464896288000274,
+					"parameters": {
+						"layout": "Menu"
+					}
+				}
+			],
+			"sid": 783790592883377
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 377586405272184
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Fog",
+					"sid": 379120881481503,
+					"parameters": {
+						"opacity": "0"
+					}
+				}
+			],
+			"sid": 952635805423031
+		}
+	],
+	"sid": 706634686281827
+}

@@ -1,0 +1,63 @@
+{
+	"name": "Tutorial",
+	"plugin-id": "Sprite",
+	"sid": 863182779287094,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 334778151874999
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 793,
+						"height": 375,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 311780,
+						"collisionPoly": {
+							"points": [
+								0.2471626733921816,
+								0.5226666666666666,
+								0.5,
+								0.52,
+								0.9482976040353089,
+								0.10666666666666667,
+								0.9987389659520807,
+								0.5,
+								0.9659520807061791,
+								0.928,
+								0.5,
+								0.7626666666666667,
+								0.10970996216897856,
+								0.7653333333333333,
+								0.7326607818411097,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 522804444845820,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

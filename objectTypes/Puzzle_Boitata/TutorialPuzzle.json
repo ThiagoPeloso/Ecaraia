@@ -1,0 +1,15 @@
+{
+	"name": "TutorialPuzzle",
+	"plugin-id": "Text",
+	"sid": 503445969797544,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "Esmaecer",
+			"sid": 853702940217694
+		}
+	],
+	"effectTypes": []
+}

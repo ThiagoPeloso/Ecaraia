@@ -1,0 +1,51 @@
+{
+	"name": "VoceVenceu_Sheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 548298690321047,
+					"parameters": {
+						"key": 69
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 383700911328239,
+					"parameters": {
+						"layout": "Menu"
+					}
+				}
+			],
+			"sid": 233975816646594
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 633703611294530
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Fog",
+					"sid": 991871776924412,
+					"parameters": {
+						"opacity": "0"
+					}
+				}
+			],
+			"sid": 422705021929439
+		}
+	],
+	"sid": 449288248826137
+}

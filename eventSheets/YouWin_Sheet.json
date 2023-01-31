@@ -1,0 +1,51 @@
+{
+	"name": "YouWin_Sheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 249490456370640,
+					"parameters": {
+						"key": 69
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 585419698979953,
+					"parameters": {
+						"layout": "Menu"
+					}
+				}
+			],
+			"sid": 280998867959192
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 467868217488725
+				}
+			],
+			"actions": [
+				{
+					"id": "set-opacity",
+					"objectClass": "Fog",
+					"sid": 387736821984904,
+					"parameters": {
+						"opacity": "0"
+					}
+				}
+			],
+			"sid": 116552273804854
+		}
+	],
+	"sid": 630254225970778
+}
