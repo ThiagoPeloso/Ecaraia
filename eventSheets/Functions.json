@@ -98,50 +98,92 @@
 			"functionParameters": [],
 			"eventType": "function-block",
 			"conditions": [],
-			"actions": [
+			"actions": [],
+			"sid": 146307617041120,
+			"children": [
 				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 636567418241151,
-					"parameters": {
-						"layout": "GameOverPT"
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 927358177048001,
+							"parameters": {
+								"variable": "Portugues"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "DARK",
+							"sid": 487909020883423,
+							"parameters": {
+								"tag": "\"Chasing\""
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 756338637516087,
+							"parameters": {
+								"variable": "Life",
+								"value": "3"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 387916965135850,
+							"parameters": {
+								"layout": "GameOverPT"
+							}
+						}
+					],
+					"sid": 349215835672720
 				},
 				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 865853716090923,
-					"parameters": {
-						"seconds": "5"
-					}
-				},
-				{
-					"id": "set-eventvar-value",
-					"objectClass": "System",
-					"sid": 174124004948125,
-					"parameters": {
-						"variable": "Life",
-						"value": "3"
-					}
-				},
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 625355369279608,
-					"parameters": {
-						"layout": "Entrada"
-					}
-				},
-				{
-					"id": "stop",
-					"objectClass": "DARK",
-					"sid": 510784494734083,
-					"parameters": {
-						"tag": "\"Chasing\""
-					}
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 533348893718635,
+							"parameters": {
+								"variable": "English"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop",
+							"objectClass": "DARK",
+							"sid": 319107458874216,
+							"parameters": {
+								"tag": "\"Chasing\""
+							}
+						},
+						{
+							"id": "set-eventvar-value",
+							"objectClass": "System",
+							"sid": 184762087087931,
+							"parameters": {
+								"variable": "Life",
+								"value": "3"
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 998263451489071,
+							"parameters": {
+								"layout": "GameOverEN"
+							}
+						}
+					],
+					"sid": 408159621993909
 				}
-			],
-			"sid": 146307617041120
+			]
 		},
 		{
 			"functionName": "Locked Door",

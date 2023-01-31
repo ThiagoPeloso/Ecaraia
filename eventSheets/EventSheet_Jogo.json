@@ -1569,48 +1569,7 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"id": "set-visible",
-							"objectClass": "LivroMestreDialogo",
-							"sid": 419821556512628,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "LivroMestre_Icone",
-							"sid": 646339372172520,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 125032052503612,
-							"parameters": {
-								"seconds": "4"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "LivroMestreDialogo",
-							"sid": 439424816959863,
-							"parameters": {
-								"visibility": "invisible"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "LivroMestre_Icone",
-							"sid": 727613864614953,
-							"parameters": {
-								"visibility": "invisible"
-							}
-						}
-					],
+					"actions": [],
 					"sid": 724979301459135,
 					"children": [
 						{
@@ -1625,7 +1584,56 @@
 									}
 								}
 							],
-							"actions": [],
+							"actions": [
+								{
+									"id": "set-text",
+									"objectClass": "LivroMestreDialogo",
+									"sid": 964184808041762,
+									"parameters": {
+										"text": "\"Well done! Now, come back to me.\""
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "LivroMestreDialogo",
+									"sid": 559204775012155,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "LivroMestre_Icone",
+									"sid": 787313741011132,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 219585255212869,
+									"parameters": {
+										"seconds": "4"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "LivroMestreDialogo",
+									"sid": 697739509589271,
+									"parameters": {
+										"visibility": "invisible"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "LivroMestre_Icone",
+									"sid": 986221860427627,
+									"parameters": {
+										"visibility": "invisible"
+									}
+								}
+							],
 							"sid": 182928985801793
 						},
 						{
@@ -1640,7 +1648,56 @@
 									}
 								}
 							],
-							"actions": [],
+							"actions": [
+								{
+									"id": "set-text",
+									"objectClass": "LivroMestreDialogo",
+									"sid": 946393193826676,
+									"parameters": {
+										"text": "\"Muito bom! Agora, volte para mim.\""
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "LivroMestreDialogo",
+									"sid": 883998985016547,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "LivroMestre_Icone",
+									"sid": 787847970733014,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 408163348003642,
+									"parameters": {
+										"seconds": "4"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "LivroMestreDialogo",
+									"sid": 742115828481190,
+									"parameters": {
+										"visibility": "invisible"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "LivroMestre_Icone",
+									"sid": 489520856947015,
+									"parameters": {
+										"visibility": "invisible"
+									}
+								}
+							],
 							"sid": 702016697354376
 						}
 					]

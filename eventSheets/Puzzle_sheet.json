@@ -1017,7 +1017,67 @@
 							"sid": 143756377558034
 						}
 					],
-					"sid": 718222639458043
+					"sid": 718222639458043,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 913531946321656,
+									"parameters": {
+										"variable": "Portugues"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 158754106029067,
+									"parameters": {
+										"layout": "VoceVenceu"
+									}
+								},
+								{
+									"id": "reset-global-variables",
+									"objectClass": "System",
+									"sid": 585399820114813
+								}
+							],
+							"sid": 474049269013288
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 103988915753867,
+									"parameters": {
+										"variable": "English"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 109394709585918,
+									"parameters": {
+										"layout": "GameOverEN"
+									}
+								},
+								{
+									"id": "reset-global-variables",
+									"objectClass": "System",
+									"sid": 986651070907886
+								}
+							],
+							"sid": 746873956770570
+						}
+					]
 				},
 				{
 					"eventType": "block",
