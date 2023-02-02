@@ -1,1 +1,3771 @@
-{"propertiesBar":{"properties":[{"name":"Layout","expanded":true,"children":[{"name":"Tamanho","expanded":false,"children":[]},{"name":"Ponto de fuga","expanded":false,"children":[]}]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Editor","expanded":true,"children":[{"name":"Margens","expanded":false,"children":[]},{"name":"Tamanho do grid","expanded":false,"children":[]},{"name":"Deslocamento do grid","expanded":false,"children":[]}]}],"scrollPosition":0},"layersBar":{"name":"<root>","children":[{"name":"2D","expanded":true,"children":[]},{"name":"Light","expanded":true,"children":[]},{"name":"Fog","expanded":true,"children":[]},{"name":"Collisions","expanded":true,"children":[]},{"name":"Jogo","expanded":true,"children":[]},{"name":"Floor","expanded":true,"children":[]},{"name":"Fundo","expanded":true,"children":[]}]},"grid":{"show":true,"snap":false,"width":64,"height":64,"offsetX":0,"offsetY":0},"marginWidth":1920,"marginHeight":1080,"showCollisionPolygons":false,"showMeshes":true,"showTranslucentInactiveLayers":false,"showSceneGraphConnections":true,"tabColor":[0.9999999999999999,0.95,0.8000000000000002,1],"tabTextColor":null,"layers":[{"name":"Fundo","propertiesBar":{"properties":[{"name":"Layer properties","expanded":true,"children":[]},{"name":"Scroll & zoom","expanded":true,"children":[{"name":"Parallax","expanded":false,"children":[]}]},{"name":"Appearance","expanded":true,"children":[]},{"name":"Effects","expanded":true,"children":[]},{"name":"Editor","expanded":true,"children":[]}],"scrollPosition":0},"visibleInEditor":false,"locked":true,"parallaxInEditor":false,"opacity":1,"translucent":false},{"name":"Floor","propertiesBar":{},"visibleInEditor":true,"locked":true,"parallaxInEditor":false,"opacity":1,"translucent":false},{"name":"Jogo","propertiesBar":{"properties":[{"name":"Propriedades da camada","expanded":true,"children":[]},{"name":"Centralização e zoom","expanded":true,"children":[{"name":"Parallax","expanded":false,"children":[]}]},{"name":"Aparência","expanded":true,"children":[]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Editor","expanded":true,"children":[]}],"scrollPosition":0},"visibleInEditor":true,"locked":true,"parallaxInEditor":false,"opacity":1,"translucent":false},{"name":"Collisions","propertiesBar":{},"visibleInEditor":true,"locked":true,"parallaxInEditor":false,"opacity":1,"translucent":false},{"name":"Fog","propertiesBar":{"properties":[{"name":"Layer properties","expanded":true,"children":[]},{"name":"Scroll & zoom","expanded":true,"children":[{"name":"Parallax","expanded":false,"children":[]}]},{"name":"Appearance","expanded":true,"children":[]},{"name":"Effects","expanded":true,"children":[]},{"name":"Editor","expanded":true,"children":[]}],"scrollPosition":0},"visibleInEditor":true,"locked":true,"parallaxInEditor":false,"opacity":1,"translucent":false},{"name":"Light","propertiesBar":{"properties":[{"name":"Layer properties","expanded":true,"children":[]},{"name":"Scroll & zoom","expanded":true,"children":[{"name":"Parallax","expanded":false,"children":[]}]},{"name":"Appearance","expanded":true,"children":[]},{"name":"Effects","expanded":true,"children":[]},{"name":"Editor","expanded":true,"children":[]}],"scrollPosition":0},"visibleInEditor":true,"locked":true,"parallaxInEditor":false,"opacity":1,"translucent":false},{"name":"2D","propertiesBar":{"properties":[{"name":"Propriedades da camada","expanded":true,"children":[]},{"name":"Centralização e zoom","expanded":true,"children":[{"name":"Parallax","expanded":false,"children":[]}]},{"name":"Aparência","expanded":true,"children":[]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Editor","expanded":true,"children":[]}],"scrollPosition":0},"visibleInEditor":true,"locked":false,"parallaxInEditor":false,"opacity":1,"translucent":false}],"view":{"x":527,"y":383.5,"z":100,"activeLayer":"2D"},"selectedInstances":[],"lockedInstances":[],"instanceCollections":[{"uids":[163,164,165,170,171,177],"properties":{"properties":[{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Effects","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[163,164,165,170,177],"properties":{"properties":[{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Effects","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[61,160,165,166,168,169,177,182],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Effects","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Face visibility","expanded":true,"children":[]},{"name":"Use object image for faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[63,64,65,69,159,174,175,184],"properties":{"properties":[{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Effects","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[63,64,65,69,156,159,184],"properties":{"properties":[{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Effects","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[61,63,64,65,66,67,69,156,160,165,166,177,182,184],"properties":{"properties":[{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Effects","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[49,51,53,55,57],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Instance variables","expanded":true,"children":[]},{"name":"Behaviors","expanded":true,"children":[]},{"name":"Effects","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Face visibility","expanded":true,"children":[]},{"name":"Use object image for faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[157,158],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Instance variables","expanded":true,"children":[]},{"name":"Behaviors","expanded":true,"children":[{"name":"Solid","expanded":true,"children":[]}]},{"name":"Effects","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Face visibility","expanded":true,"children":[]},{"name":"Use object image for faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[156,160],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Instance variables","expanded":true,"children":[]},{"name":"Behaviors","expanded":true,"children":[{"name":"Solid","expanded":true,"children":[]}]},{"name":"Effects","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Face visibility","expanded":true,"children":[]},{"name":"Use object image for faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[149,160],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Instance variables","expanded":true,"children":[]},{"name":"Behaviors","expanded":true,"children":[{"name":"Solid","expanded":true,"children":[]}]},{"name":"Effects","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Face visibility","expanded":true,"children":[]},{"name":"Use object image for faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[36,61],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Effects","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Face visibility","expanded":true,"children":[]},{"name":"Use object image for faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[61,66],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Instance variables","expanded":true,"children":[]},{"name":"Behaviors","expanded":true,"children":[]},{"name":"Effects","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Face visibility","expanded":true,"children":[]},{"name":"Use object image for faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[30,48],"properties":{"properties":[{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Effects","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[51,52],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Effects","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Face visibility","expanded":true,"children":[]},{"name":"Use object image for faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[64,65],"properties":{"properties":[{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Effects","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[61,66,67],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Instance variables","expanded":true,"children":[]},{"name":"Behaviors","expanded":true,"children":[]},{"name":"Effects","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Face visibility","expanded":true,"children":[]},{"name":"Use object image for faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[149,158,160],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Instance variables","expanded":true,"children":[]},{"name":"Behaviors","expanded":true,"children":[{"name":"Solid","expanded":true,"children":[]}]},{"name":"Effects","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Face visibility","expanded":true,"children":[]},{"name":"Use object image for faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[63,64,65],"properties":{"properties":[{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Effects","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[63,64,65],"properties":{"properties":[{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Effects","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[36,64,66],"properties":{"properties":[{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Efeitos","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[36,61,64,66],"properties":{"properties":[{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Efeitos","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[177],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[{"name":"Sine","expanded":true,"children":[]}]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"Visibilidade das faces","expanded":true,"children":[]},{"name":"Usar objeto de imagem para faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[159],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Instance variables","expanded":true,"children":[]},{"name":"Behaviors","expanded":true,"children":[{"name":"Solid","expanded":true,"children":[]}]},{"name":"Effects","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Face visibility","expanded":true,"children":[]},{"name":"Use object image for faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[158],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Instance variables","expanded":true,"children":[]},{"name":"Behaviors","expanded":true,"children":[{"name":"Solid","expanded":true,"children":[]}]},{"name":"Effects","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Face visibility","expanded":true,"children":[]},{"name":"Use object image for faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[63],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Instance variables","expanded":true,"children":[]},{"name":"Behaviors","expanded":true,"children":[]},{"name":"Effects","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[53],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Effects","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Face visibility","expanded":true,"children":[]},{"name":"Use object image for faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[88],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Instance variables","expanded":true,"children":[]},{"name":"Behaviors","expanded":true,"children":[{"name":"Fade","expanded":true,"children":[]}]},{"name":"Effects","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[65],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Instance variables","expanded":true,"children":[]},{"name":"Behaviors","expanded":true,"children":[{"name":"Custom","expanded":true,"children":[]},{"name":"Solid","expanded":true,"children":[]},{"name":"BoundToLayout","expanded":true,"children":[]},{"name":"LineOfSight","expanded":true,"children":[]}]},{"name":"Effects","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Face visibility","expanded":true,"children":[]},{"name":"Use object image for faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[165],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[{"name":"Solid","expanded":true,"children":[]}]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"Visibilidade das faces","expanded":true,"children":[]},{"name":"Usar objeto de imagem para faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[51],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"Visibilidade das faces","expanded":true,"children":[]},{"name":"Usar objeto de imagem para faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[160],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[{"name":"Solid","expanded":true,"children":[]}]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"Visibilidade das faces","expanded":true,"children":[]},{"name":"Usar objeto de imagem para faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[64],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[66],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"Visibilidade das faces","expanded":true,"children":[]},{"name":"Usar objeto de imagem para faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[66],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"Visibilidade das faces","expanded":true,"children":[]},{"name":"Usar objeto de imagem para faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[36],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"Visibilidade das faces","expanded":true,"children":[]},{"name":"Usar objeto de imagem para faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[61],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"Visibilidade das faces","expanded":true,"children":[]},{"name":"Usar objeto de imagem para faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[61],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"Visibilidade das faces","expanded":true,"children":[]},{"name":"Usar objeto de imagem para faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[61],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"Visibilidade das faces","expanded":true,"children":[]},{"name":"Usar objeto de imagem para faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[61],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"Visibilidade das faces","expanded":true,"children":[]},{"name":"Usar objeto de imagem para faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[149],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[{"name":"Solid","expanded":true,"children":[]}]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"Visibilidade das faces","expanded":true,"children":[]},{"name":"Usar objeto de imagem para faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[156],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[{"name":"Solid","expanded":true,"children":[]}]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"Visibilidade das faces","expanded":true,"children":[]},{"name":"Usar objeto de imagem para faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[156],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Instance variables","expanded":true,"children":[]},{"name":"Behaviors","expanded":true,"children":[{"name":"Solid","expanded":true,"children":[]}]},{"name":"Effects","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Face visibility","expanded":true,"children":[]},{"name":"Use object image for faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[67],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Instance variables","expanded":true,"children":[]},{"name":"Behaviors","expanded":true,"children":[]},{"name":"Effects","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Face visibility","expanded":true,"children":[]},{"name":"Use object image for faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[67],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"Visibilidade das faces","expanded":true,"children":[]},{"name":"Usar objeto de imagem para faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[182],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Instance variables","expanded":true,"children":[]},{"name":"Behaviors","expanded":true,"children":[]},{"name":"Effects","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Face visibility","expanded":true,"children":[]},{"name":"Use object image for faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[147],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Instance variables","expanded":true,"children":[]},{"name":"Behaviors","expanded":true,"children":[]},{"name":"Effects","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Image transform","expanded":true,"children":[]},{"name":"Tile randomization","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[62],"properties":{"properties":[{"name":"Object type properties","expanded":true,"children":[]},{"name":"Common","expanded":true,"children":[{"name":"Position","expanded":false,"children":[]},{"name":"Size","expanded":false,"children":[]}]},{"name":"Instance variables","expanded":true,"children":[]},{"name":"Behaviors","expanded":true,"children":[]},{"name":"Effects","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Properties","expanded":true,"children":[]},{"name":"Face visibility","expanded":true,"children":[]},{"name":"Use object image for faces","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[52],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"[Accessibility]","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[52],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"[Accessibility]","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[45],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"[Accessibility]","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[69],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[69],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"[Accessibility]","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[30],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]}],"scrollPosition":0}},{"uids":[48],"properties":{"properties":[{"name":"Propriedades do tipo de objeto","expanded":true,"children":[]},{"name":"Comum","expanded":true,"children":[{"name":"Posição","expanded":false,"children":[]},{"name":"Tamanho","expanded":false,"children":[]}]},{"name":"Variáveis de instância","expanded":true,"children":[]},{"name":"Comportamentos","expanded":true,"children":[{"name":"Pin","expanded":true,"children":[]}]},{"name":"Efeitos","expanded":true,"children":[]},{"name":"Container","expanded":true,"children":[]},{"name":"Template","expanded":true,"children":[]},{"name":"Propriedades","expanded":true,"children":[]},{"name":"[Accessibility]","expanded":true,"children":[]}],"scrollPosition":0}}]}
+{
+    "propertiesBar": {
+        "properties": [
+            {
+                "name": "Layout",
+                "expanded": true,
+                "children": [
+                    {
+                        "name": "Tamanho",
+                        "expanded": false,
+                        "children": []
+                    },
+                    {
+                        "name": "Ponto de fuga",
+                        "expanded": false,
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "name": "Efeitos",
+                "expanded": true,
+                "children": []
+            },
+            {
+                "name": "Editor",
+                "expanded": true,
+                "children": [
+                    {
+                        "name": "Margens",
+                        "expanded": false,
+                        "children": []
+                    },
+                    {
+                        "name": "Tamanho do grid",
+                        "expanded": false,
+                        "children": []
+                    },
+                    {
+                        "name": "Deslocamento do grid",
+                        "expanded": false,
+                        "children": []
+                    }
+                ]
+            }
+        ],
+        "scrollPosition": 0
+    },
+    "layersBar": {
+        "name": "<root>",
+        "children": [
+            {
+                "name": "2D",
+                "expanded": true,
+                "children": []
+            },
+            {
+                "name": "Light",
+                "expanded": true,
+                "children": []
+            },
+            {
+                "name": "Fog",
+                "expanded": true,
+                "children": []
+            },
+            {
+                "name": "Collisions",
+                "expanded": true,
+                "children": []
+            },
+            {
+                "name": "Jogo",
+                "expanded": true,
+                "children": []
+            },
+            {
+                "name": "Floor",
+                "expanded": true,
+                "children": []
+            },
+            {
+                "name": "Fundo",
+                "expanded": true,
+                "children": []
+            }
+        ]
+    },
+    "grid": {
+        "show": true,
+        "snap": false,
+        "width": 64,
+        "height": 64,
+        "offsetX": 0,
+        "offsetY": 0
+    },
+    "marginWidth": 1920,
+    "marginHeight": 1080,
+    "showCollisionPolygons": false,
+    "showMeshes": true,
+    "showTranslucentInactiveLayers": false,
+    "showSceneGraphConnections": true,
+    "tabColor": [
+        0.9999999999999999,
+        0.95,
+        0.8000000000000002,
+        1
+    ],
+    "tabTextColor": null,
+    "layers": [
+        {
+            "name": "Fundo",
+            "propertiesBar": {
+                "properties": [
+                    {
+                        "name": "Layer properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Scroll & zoom",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Parallax",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Appearance",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Editor",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            },
+            "visibleInEditor": false,
+            "locked": true,
+            "parallaxInEditor": false,
+            "opacity": 1,
+            "translucent": false
+        },
+        {
+            "name": "Floor",
+            "propertiesBar": {},
+            "visibleInEditor": true,
+            "locked": true,
+            "parallaxInEditor": false,
+            "opacity": 1,
+            "translucent": false
+        },
+        {
+            "name": "Jogo",
+            "propertiesBar": {
+                "properties": [
+                    {
+                        "name": "Propriedades da camada",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Centralização e zoom",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Parallax",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Aparência",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Editor",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            },
+            "visibleInEditor": true,
+            "locked": true,
+            "parallaxInEditor": false,
+            "opacity": 1,
+            "translucent": false
+        },
+        {
+            "name": "Collisions",
+            "propertiesBar": {},
+            "visibleInEditor": true,
+            "locked": true,
+            "parallaxInEditor": false,
+            "opacity": 1,
+            "translucent": false
+        },
+        {
+            "name": "Fog",
+            "propertiesBar": {
+                "properties": [
+                    {
+                        "name": "Layer properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Scroll & zoom",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Parallax",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Appearance",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Editor",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            },
+            "visibleInEditor": true,
+            "locked": true,
+            "parallaxInEditor": false,
+            "opacity": 1,
+            "translucent": false
+        },
+        {
+            "name": "Light",
+            "propertiesBar": {
+                "properties": [
+                    {
+                        "name": "Layer properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Scroll & zoom",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Parallax",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Appearance",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Editor",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            },
+            "visibleInEditor": true,
+            "locked": true,
+            "parallaxInEditor": false,
+            "opacity": 1,
+            "translucent": false
+        },
+        {
+            "name": "2D",
+            "propertiesBar": {
+                "properties": [
+                    {
+                        "name": "Propriedades da camada",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Centralização e zoom",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Parallax",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Aparência",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Editor",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            },
+            "visibleInEditor": true,
+            "locked": false,
+            "parallaxInEditor": false,
+            "opacity": 1,
+            "translucent": false
+        }
+    ],
+    "view": {
+        "x": 527,
+        "y": 383.5,
+        "z": 100,
+        "activeLayer": "2D"
+    },
+    "selectedInstances": [],
+    "lockedInstances": [],
+    "instanceCollections": [
+        {
+            "uids": [
+                163,
+                164,
+                165,
+                170,
+                171,
+                177
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                163,
+                164,
+                165,
+                170,
+                177
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                61,
+                160,
+                165,
+                166,
+                168,
+                169,
+                177,
+                182
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Face visibility",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Use object image for faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                63,
+                64,
+                65,
+                69,
+                159,
+                174,
+                175,
+                184
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                63,
+                64,
+                65,
+                69,
+                156,
+                159,
+                184
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                61,
+                63,
+                64,
+                65,
+                66,
+                67,
+                69,
+                156,
+                160,
+                165,
+                166,
+                177,
+                182,
+                184
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                49,
+                51,
+                53,
+                55,
+                57
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Instance variables",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Behaviors",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Face visibility",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Use object image for faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                157,
+                158
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Instance variables",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Behaviors",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Solid",
+                                "expanded": true,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Face visibility",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Use object image for faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                156,
+                160
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Instance variables",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Behaviors",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Solid",
+                                "expanded": true,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Face visibility",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Use object image for faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                149,
+                160
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Instance variables",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Behaviors",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Solid",
+                                "expanded": true,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Face visibility",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Use object image for faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                36,
+                61
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Face visibility",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Use object image for faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                61,
+                66
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Instance variables",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Behaviors",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Face visibility",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Use object image for faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                30,
+                48
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                51,
+                52
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Face visibility",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Use object image for faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                64,
+                65
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                61,
+                66,
+                67
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Instance variables",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Behaviors",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Face visibility",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Use object image for faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                149,
+                158,
+                160
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Instance variables",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Behaviors",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Solid",
+                                "expanded": true,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Face visibility",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Use object image for faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                63,
+                64,
+                65
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                63,
+                64,
+                65
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                36,
+                64,
+                66
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                36,
+                61,
+                64,
+                66
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                177
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Sine",
+                                "expanded": true,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Visibilidade das faces",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Usar objeto de imagem para faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                159
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Instance variables",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Behaviors",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Solid",
+                                "expanded": true,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Face visibility",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Use object image for faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                158
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Instance variables",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Behaviors",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Solid",
+                                "expanded": true,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Face visibility",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Use object image for faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                63
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Instance variables",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Behaviors",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                53
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Face visibility",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Use object image for faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                88
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Instance variables",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Behaviors",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Fade",
+                                "expanded": true,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                65
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Instance variables",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Behaviors",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Custom",
+                                "expanded": true,
+                                "children": []
+                            },
+                            {
+                                "name": "Solid",
+                                "expanded": true,
+                                "children": []
+                            },
+                            {
+                                "name": "BoundToLayout",
+                                "expanded": true,
+                                "children": []
+                            },
+                            {
+                                "name": "LineOfSight",
+                                "expanded": true,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Face visibility",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Use object image for faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                165
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Solid",
+                                "expanded": true,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Visibilidade das faces",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Usar objeto de imagem para faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                51
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Visibilidade das faces",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Usar objeto de imagem para faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                160
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Solid",
+                                "expanded": true,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Visibilidade das faces",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Usar objeto de imagem para faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                64
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                66
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Visibilidade das faces",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Usar objeto de imagem para faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                66
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Visibilidade das faces",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Usar objeto de imagem para faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                36
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Visibilidade das faces",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Usar objeto de imagem para faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                61
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Visibilidade das faces",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Usar objeto de imagem para faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                61
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Visibilidade das faces",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Usar objeto de imagem para faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                61
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Visibilidade das faces",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Usar objeto de imagem para faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                61
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Visibilidade das faces",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Usar objeto de imagem para faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                149
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Solid",
+                                "expanded": true,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Visibilidade das faces",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Usar objeto de imagem para faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                156
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Solid",
+                                "expanded": true,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Visibilidade das faces",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Usar objeto de imagem para faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                156
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Instance variables",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Behaviors",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Solid",
+                                "expanded": true,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Face visibility",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Use object image for faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                67
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Instance variables",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Behaviors",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Face visibility",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Use object image for faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                67
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Visibilidade das faces",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Usar objeto de imagem para faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                182
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Instance variables",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Behaviors",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Face visibility",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Use object image for faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                147
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Instance variables",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Behaviors",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Image transform",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Tile randomization",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                62
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Object type properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Common",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Position",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Size",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Instance variables",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Behaviors",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Effects",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Properties",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Face visibility",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Use object image for faces",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                52
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "[Accessibility]",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                52
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "[Accessibility]",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                45
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "[Accessibility]",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                69
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                69
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "[Accessibility]",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                30
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        },
+        {
+            "uids": [
+                48
+            ],
+            "properties": {
+                "properties": [
+                    {
+                        "name": "Propriedades do tipo de objeto",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comum",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Posição",
+                                "expanded": false,
+                                "children": []
+                            },
+                            {
+                                "name": "Tamanho",
+                                "expanded": false,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Variáveis de instância",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Comportamentos",
+                        "expanded": true,
+                        "children": [
+                            {
+                                "name": "Pin",
+                                "expanded": true,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Efeitos",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Container",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Template",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "Propriedades",
+                        "expanded": true,
+                        "children": []
+                    },
+                    {
+                        "name": "[Accessibility]",
+                        "expanded": true,
+                        "children": []
+                    }
+                ],
+                "scrollPosition": 0
+            }
+        }
+    ]
+}
