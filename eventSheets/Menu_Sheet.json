@@ -80,28 +80,60 @@
 						"object": "MenuStart"
 					},
 					"isInverted": true
+				}
+			],
+			"actions": [],
+			"sid": 159614565756756,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 764147321069628,
+							"parameters": {
+								"variable": "English"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "MenuImagemPortugues",
+							"sid": 294257475023511,
+							"parameters": {
+								"frame-number": "0"
+							}
+						}
+					],
+					"sid": 937593903492303
 				},
 				{
-					"id": "cursor-is-over-object",
-					"objectClass": "Mouse",
-					"sid": 812034740550159,
-					"parameters": {
-						"object": "MenuLoad"
-					},
-					"isInverted": true
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 431967050087093,
+							"parameters": {
+								"variable": "Portugues"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "MenuImagemPortugues",
+							"sid": 240939806192006,
+							"parameters": {
+								"frame-number": "1"
+							}
+						}
+					],
+					"sid": 454544656977166
 				}
-			],
-			"actions": [
-				{
-					"id": "set-animation-frame",
-					"objectClass": "MenuImagemPortugues",
-					"sid": 900184864086334,
-					"parameters": {
-						"frame-number": "0"
-					}
-				}
-			],
-			"sid": 159614565756756
+			]
 		},
 		{
 			"eventType": "block",
@@ -115,18 +147,57 @@
 					}
 				}
 			],
-			"actions": [
-				{
-					"id": "set-animation-frame",
-					"objectClass": "MenuImagemPortugues",
-					"sid": 530132854851545,
-					"parameters": {
-						"frame-number": "1"
-					}
-				}
-			],
+			"actions": [],
 			"sid": 906020477662120,
 			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 751644075241639,
+							"parameters": {
+								"variable": "English"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "MenuImagemPortugues",
+							"sid": 201899287092113,
+							"parameters": {
+								"frame-number": "2"
+							}
+						}
+					],
+					"sid": 796592477821566
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 424906312337597,
+							"parameters": {
+								"variable": "Portugues"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "MenuImagemPortugues",
+							"sid": 865522773498684,
+							"parameters": {
+								"frame-number": "3"
+							}
+						}
+					],
+					"sid": 946367757898532
+				},
 				{
 					"eventType": "block",
 					"conditions": [
@@ -269,6 +340,7 @@
 				}
 			],
 			"sid": 685231114294431,
+			"disabled": true,
 			"children": [
 				{
 					"eventType": "block",
@@ -293,7 +365,8 @@
 							}
 						}
 					],
-					"sid": 131231393981674
+					"sid": 131231393981674,
+					"disabled": true
 				},
 				{
 					"eventType": "block",
@@ -333,7 +406,8 @@
 							}
 						}
 					],
-					"sid": 194599618485635
+					"sid": 194599618485635,
+					"disabled": true
 				}
 			]
 		},
@@ -378,6 +452,96 @@
 			],
 			"sid": 694278180802064,
 			"disabled": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 789932959918720,
+					"parameters": {
+						"key": 83
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-position",
+					"objectClass": "Sprite",
+					"sid": 862033642592147,
+					"behaviorType": "MoverPara",
+					"parameters": {
+						"x": "330",
+						"y": "691",
+						"mode": "direct"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 438843945405935,
+					"parameters": {
+						"variable": "English",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 116624134261092,
+					"parameters": {
+						"variable": "Portugues",
+						"value": "false"
+					}
+				}
+			],
+			"sid": 275259927310330
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 355516650809493,
+					"parameters": {
+						"key": 87
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-position",
+					"objectClass": "Sprite",
+					"sid": 900623986160174,
+					"behaviorType": "MoverPara",
+					"parameters": {
+						"x": "330",
+						"y": "574",
+						"mode": "direct"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 208714029043010,
+					"parameters": {
+						"variable": "Portugues",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 823431463494615,
+					"parameters": {
+						"variable": "English",
+						"value": "false"
+					}
+				}
+			],
+			"sid": 196137391315826
 		}
 	],
 	"sid": 104319222013975

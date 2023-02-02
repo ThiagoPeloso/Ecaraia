@@ -11,7 +11,7 @@
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
-						"initial-frame": 0,
+						"initial-frame": 2,
 						"enable-collisions": true,
 						"live-preview": false
 					},
@@ -21,7 +21,7 @@
 					"world": {
 						"x": 0,
 						"y": 0,
-						"width": 1270.0000000000002,
+						"width": 1279.0000000000002,
 						"height": 880.0000000000001,
 						"originX": 0,
 						"originY": 0,
@@ -82,8 +82,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 327.0523033076479,
-						"y": 389.071977199769,
+						"x": 290,
+						"y": 389,
 						"width": 340.1046066152957,
 						"height": 40.56813680138589,
 						"originX": 0.5,
@@ -99,9 +99,9 @@
 					}
 				},
 				{
-					"type": "MenuLoad",
+					"type": "Sprite",
 					"properties": {
-						"initially-visible": false,
+						"initially-visible": true,
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
@@ -109,14 +109,26 @@
 					},
 					"uid": 41,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"MoverPara": {
+							"properties": {
+								"max-speed": 450,
+								"acceleration": 1000,
+								"deceleration": 1000,
+								"rotate-speed": 0,
+								"set-angle": false,
+								"stop-on-solids": false,
+								"enabled": true
+							}
+						}
+					},
 					"world": {
-						"x": 327.4904036609521,
-						"y": 457.0652588310535,
-						"width": 337,
-						"height": 40.56813680138589,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 330,
+						"y": 574,
+						"width": 200,
+						"height": 100,
+						"originX": 0.48828125,
+						"originY": 0.9765625,
 						"color": [
 							1,
 							1,

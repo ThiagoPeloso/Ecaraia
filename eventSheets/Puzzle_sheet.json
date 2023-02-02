@@ -921,6 +921,22 @@
 							}
 						},
 						{
+							"id": "set-visible",
+							"objectClass": "mouse_puzzle",
+							"sid": 878703625656626,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
+							"id": "set-visible",
+							"objectClass": "Q_E",
+							"sid": 528062751531676,
+							"parameters": {
+								"visibility": "invisible"
+							}
+						},
+						{
 							"id": "destroy",
 							"objectClass": "Timer",
 							"sid": 230483182939936
@@ -948,39 +964,96 @@
 						},
 						{
 							"id": "set-visible",
-							"objectClass": "HistoriaBoitata",
+							"objectClass": "BoitataHistoria",
 							"sid": 436881226331615,
 							"parameters": {
 								"visibility": "visible"
 							}
-						},
-						{
-							"id": "wait",
-							"objectClass": "System",
-							"sid": 920072652177696,
-							"parameters": {
-								"seconds": "5"
-							}
-						},
-						{
-							"id": "set-visible",
-							"objectClass": "ContinueText",
-							"sid": 230081762836343,
-							"parameters": {
-								"visibility": "visible"
-							}
-						},
-						{
-							"id": "set-boolean-eventvar",
-							"objectClass": "System",
-							"sid": 912971175439198,
-							"parameters": {
-								"variable": "Win",
-								"value": "true"
-							}
 						}
 					],
-					"sid": 664174476783643
+					"sid": 664174476783643,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 837348974581461,
+									"parameters": {
+										"variable": "English"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-text",
+									"objectClass": "BoitataHistoria",
+									"sid": 452913444191202,
+									"parameters": {
+										"text": "\"                          Boitatá\n\nThe legendary fire snake protects woods and forests from humans to set fire to them.\n\nIt singes any human who dares to enter its domain.\""
+									}
+								}
+							],
+							"sid": 702099701555230
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 431850804938674,
+									"parameters": {
+										"variable": "Portugues"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-text",
+									"objectClass": "BoitataHistoria",
+									"sid": 405060756501448,
+									"parameters": {
+										"text": "\"                          Boitatá\r\n\r\nA cobra lendária de fogo protege as florestas e matas de humanos que incendiam elas.\r\n\r\nEla queima todo humano que ousa entrar em sua floresta.\r\n\""
+									}
+								}
+							],
+							"sid": 785471661066078
+						},
+						{
+							"eventType": "block",
+							"conditions": [],
+							"actions": [
+								{
+									"id": "wait",
+									"objectClass": "System",
+									"sid": 320737451129920,
+									"parameters": {
+										"seconds": "5"
+									}
+								},
+								{
+									"id": "set-visible",
+									"objectClass": "ContinueText",
+									"sid": 234823020303689,
+									"parameters": {
+										"visibility": "visible"
+									}
+								},
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 842413654238115,
+									"parameters": {
+										"variable": "Win",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 652274940908990
+						}
+					]
 				},
 				{
 					"eventType": "block",

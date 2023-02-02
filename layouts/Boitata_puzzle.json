@@ -615,7 +615,7 @@
 					}
 				},
 				{
-					"type": "HistoriaBoitata",
+					"type": "BoitataHistoria",
 					"properties": {
 						"text": "                          Boitatá\n\nA cobra lendária de fogo protege as florestas e matas de humanos que incendiam elas.\n\nEla queima todo humano que ousa entrar em sua floresta.\n",
 						"enable-bbcode": true,
@@ -645,60 +645,6 @@
 						"y": 223,
 						"width": 526,
 						"height": 520,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "TutorialPuzzle",
-					"properties": {
-						"text": "Clique com o botão esquerdo do mouse para arrastar as peças.\n\nEnquanto arrasta uma peça, pressione Q ou E para rodar a peça em mãos.",
-						"enable-bbcode": true,
-						"font": "shlop rg",
-						"size": 25,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 127,
-					"instanceVariables": {},
-					"behaviors": {
-						"Esmaecer": {
-							"properties": {
-								"fade-in-time": 0,
-								"wait-time": 5,
-								"fade-out-time": 1,
-								"destroy": true,
-								"enabled": false,
-								"live-preview": false
-							}
-						}
-					},
-					"world": {
-						"x": 672,
-						"y": 522,
-						"width": 511,
-						"height": 200,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -787,6 +733,64 @@
 						"height": 48,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "mouse_puzzle",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 101,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 797,
+						"y": 615,
+						"width": 250,
+						"height": 239,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Q_E",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 102,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 974,
+						"y": 580,
+						"width": 185,
+						"height": 81,
+						"originX": 0.22162162162162163,
+						"originY": 0.5185185185185185,
 						"color": [
 							1,
 							1,

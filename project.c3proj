@@ -161,11 +161,13 @@
 					"Boitata6",
 					"Boitata",
 					"puzzle_bg",
-					"HistoriaBoitata",
+					"BoitataHistoria",
 					"ContinueText",
 					"Timer",
 					"TutorialPuzzle",
-					"TimerFinal"
+					"TimerFinal",
+					"mouse_puzzle",
+					"Q_E"
 				],
 				"subfolders": [],
 				"name": "Puzzle_Boitata"
@@ -249,7 +251,8 @@
 					"MenuStart",
 					"Fade",
 					"MenuImagemLoad",
-					"MenuBR"
+					"MenuBR",
+					"Sprite"
 				],
 				"subfolders": [],
 				"name": "Menu"
