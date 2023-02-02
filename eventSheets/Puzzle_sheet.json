@@ -15,7 +15,7 @@
 			"eventType": "variable",
 			"name": "Timer",
 			"type": "number",
-			"initialValue": "121",
+			"initialValue": "17",
 			"comment": "",
 			"isStatic": false,
 			"isConstant": false,
@@ -865,22 +865,68 @@
 							}
 						}
 					],
-					"actions": [
+					"actions": [],
+					"sid": 417117221595869,
+					"children": [
 						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 250396831915487,
-							"parameters": {
-								"layout": "GameOverPT"
-							}
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 691982096700372,
+									"parameters": {
+										"variable": "Portugues"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 607462549334957,
+									"parameters": {
+										"layout": "GameOverPT"
+									}
+								},
+								{
+									"id": "reset-global-variables",
+									"objectClass": "System",
+									"sid": 203321166518352
+								}
+							],
+							"sid": 550132027108247
 						},
 						{
-							"id": "reset-global-variables",
-							"objectClass": "System",
-							"sid": 962252240776418
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 410940262511476,
+									"parameters": {
+										"variable": "English"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "go-to-layout",
+									"objectClass": "System",
+									"sid": 129960299522675,
+									"parameters": {
+										"layout": "GameOverEN"
+									}
+								},
+								{
+									"id": "reset-global-variables",
+									"objectClass": "System",
+									"sid": 140460982565404
+								}
+							],
+							"sid": 298286151903534
 						}
-					],
-					"sid": 417117221595869
+					]
 				},
 				{
 					"eventType": "block",
@@ -993,6 +1039,14 @@
 									"parameters": {
 										"text": "\"                          Boitatá\n\nThe legendary fire snake protects woods and forests from humans to set fire to them.\n\nIt singes any human who dares to enter its domain.\""
 									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "ContinueText",
+									"sid": 162932832971758,
+									"parameters": {
+										"text": "\"Press E to continue\""
+									}
 								}
 							],
 							"sid": 702099701555230
@@ -1016,6 +1070,14 @@
 									"sid": 405060756501448,
 									"parameters": {
 										"text": "\"                          Boitatá\r\n\r\nA cobra lendária de fogo protege as florestas e matas de humanos que incendiam elas.\r\n\r\nEla queima todo humano que ousa entrar em sua floresta.\r\n\""
+									}
+								},
+								{
+									"id": "set-text",
+									"objectClass": "ContinueText",
+									"sid": 918438549843901,
+									"parameters": {
+										"text": "\"Pressione E para continuar\""
 									}
 								}
 							],
@@ -1075,21 +1137,7 @@
 							}
 						}
 					],
-					"actions": [
-						{
-							"id": "go-to-layout",
-							"objectClass": "System",
-							"sid": 824380051658367,
-							"parameters": {
-								"layout": "VoceVenceu"
-							}
-						},
-						{
-							"id": "reset-global-variables",
-							"objectClass": "System",
-							"sid": 143756377558034
-						}
-					],
+					"actions": [],
 					"sid": 718222639458043,
 					"children": [
 						{
@@ -1137,9 +1185,9 @@
 								{
 									"id": "go-to-layout",
 									"objectClass": "System",
-									"sid": 109394709585918,
+									"sid": 879415592115839,
 									"parameters": {
-										"layout": "GameOverEN"
+										"layout": "YouWin"
 									}
 								},
 								{

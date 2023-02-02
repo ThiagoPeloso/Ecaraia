@@ -9,7 +9,7 @@
 				{
 					"type": "GameOver",
 					"properties": {
-						"text": "Você Venceu!",
+						"text": "You Won!",
 						"enable-bbcode": true,
 						"font": "shlop rg",
 						"size": 100,
@@ -33,8 +33,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 363,
-						"y": 430,
+						"x": 456,
+						"y": 424,
 						"width": 573,
 						"height": 150,
 						"originX": 0,
@@ -81,7 +81,7 @@
 				{
 					"type": "GameOver",
 					"properties": {
-						"text": "Pressione E para voltar ao Menu",
+						"text": "Press E to return to Menu",
 						"enable-bbcode": true,
 						"font": "shlop rg",
 						"size": 60,
@@ -105,8 +105,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 226,
-						"y": 612,
+						"x": 304,
+						"y": 614,
 						"width": 873,
 						"height": 120,
 						"originX": 0,
